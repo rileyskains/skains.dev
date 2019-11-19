@@ -1,16 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import "../styles/main.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <div className="index-gradient-primary">
+    <SEO title="Articles" />
+    <div className="articles-gradient-primary">
       <div className="hero-section">
         <div className="hero-interior-container">
           <div className="spin-container">
