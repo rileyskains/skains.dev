@@ -150,27 +150,9 @@ body {
   padding: 1em;
 }
 
-.large-grid {
+.half-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 1em;
-}
-
-.grid-cell {
-  border-radius: 7px;
-  box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.1);
-}
-
-.grid-cell-interior {
-  margin: .3em;
-  background-color: #ffffff;
-  border-radius: 7px;
-}
-
-.grid-cell-interior p {
-  margin: 0;
-  padding: 1em;
-  
+  grid-template-columns: 3fr 2fr;
 }
 
 @media all and (max-width: 768px) {  
