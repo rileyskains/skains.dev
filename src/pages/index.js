@@ -6,47 +6,53 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import "../styles/main.scss"
+import sitting from "../../public/static/sitting.svg"
+import wireframe from "../../public/static/wireframe.svg"
+import rslogo from "../../public/static/rs-logo.svg"
+import skainslogo from "../../public/static/skains-logo.svg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="index-gradient-primary">
-      <div className="hero-section">
-        <div className="hero-interior-container">
-          <div className="spin-container">
-            <div className="hero-white-card">
-              <h1 className="hero-h1">i make websites</h1>
-            </div>
-          </div>
+      <section className="hero-section">
+        <div>
+          <h1>Front-End Developer<br />& Designer</h1>
+
+          <button>Start a project &rarr;</button>
         </div>
-      </div>
+        <div>
+        <img src={sitting} alt="Person sitting on a rock." className="sitting" />
+        </div>
+        <div>
+        <img src={wireframe} alt="Website wireframes." className="wireframes" />
+        </div>
+      </section>
       <div className="main-body">
         <div className="main-content">
-          <section>
-            <div class="half-grid">
-              <div>
-                <h2>what i advocate for</h2>
-                <p>People wielding the power of the Internet have nearly unlimited potential. I believe that all people, regardless of their economic power, race, religion, sexuality, gender, disability, location, or any other major or minor characteristic, should be able to use the Internet as equals.</p>
-                <p>By collaborating with a diverse set of individuals through open-source methods, we can encourage positive work-life balance and empathy both in the work place and in our personal lives.</p>
-                <p>Understanding the needs and wants of those around us, no matter how simple, can make a major difference in our approach to life and future work.</p>
-                <ul>
-                  <li>One member of a family working remotely may save their family thousands of dollars a year in transportation, childcare, and food.</li>
-                  <li>Flexible working hours may give your team member the opportunity to pursue counseling or ongoing trauma. It may allow another team member to donate their time to a charity during the day.</li>
-                </ul>
+          <section className="text-center lead">
+            <h2>Making the world better through websites.</h2>
+            <p>I create functional and accessible websites and web applications. Hire me to build a website, put together a design, or write an article.</p>
+          </section>
+          <section className="logo-half-grid">
+            <div>
+              <div className="smaller-sections">
+                <h3>Have a look at my work</h3>
+                <p>All of my personal projects are developed in the open on GitHub so that I can share my explorations and discoveries with the community.</p>
               </div>
-              <div>
-
+              <div className="smaller-sections">
+                <h3>Read some of my articles</h3>
+                <p>Our modern web impacts people and our society on a fundamental level. I frequently write about design, accessibility, and culture.</p>
+              </div>
+              <div className="smaller-sections">
+                <h3>Get in touch with me</h3>
+                <p>Feel free to reach out about hiring me, starting a project, or just to say hello! Ideas, suggestions, and new friends are always welcome!</p>
               </div>
             </div>
-            
-          </section>
-          <section>
-            <h2>more about me</h2>
-            <p>I live in Huntsville, Texas with my wife and two dogs.</p>
-            <p>In addition to freelancing, I also work for Sam Houston State University as a Web & Media Developer.</p>
-            <p>Most of my media consumption is definitely on the Internet. I watch a bunch of different things on YouTube. A few of my favorites right now are historical nautical videos, anything on the Bon Appetit channel, and the Yogscast.</p>
-            <p>We also watch a lot of anime! Please feel free to have a look at my Anilist and talk to me on Twitter about anything on there. I am not a fanatic, so please don't expect me to have super strong opinions on things. I just like to appreciate the interesting stories and awesome animation and talk about them with my wife and other people on the Internet.</p>
-            <p>You'll learn more about me by looking at my <Link to="work">work</Link> and <Link to="articles">articles</Link>!</p>
+            <div>
+            <img src={rslogo} alt="RS logo" className="rslogo" />
+            <img src={skainslogo} alt="skains logo" className="rslogo" />
+            </div>
           </section>
         </div>
       </div>
