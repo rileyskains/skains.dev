@@ -6,7 +6,7 @@ import skainslogo from "../../public/static/skains-logo.svg"
 
 const Footer = () => (
   <footer>
-      <div className="footer-logo">
+      <div className="footer-logo-container">
       <Link to="/"><img src={skainslogo} alt="skains logo" className="footer-logo-img" /></Link>
       </div>
       <div className="footer-interior-grid">
