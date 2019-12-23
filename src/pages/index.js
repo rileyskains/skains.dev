@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import "../styles/main.scss"
 import hero from "../../public/static/hero-humaaans.svg"
 import whiteboard from "../../public/static/whiteboard.svg"
 import skainslogo from "../../public/static/skains-logo.svg"
@@ -14,6 +13,7 @@ import queen from "../../public/static/queen.svg"
 import a11y from "../../public/static/a11y.svg"
 
 const IndexPage = () => (
+
 	<Layout>
     <SEO title="Home" />
 		<div className="body__background-gradient--index">
@@ -89,7 +89,7 @@ const IndexPage = () => (
               				<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
             			</div>
             			<div>
-            				<Link to="contact" className="index-contact-button">Contact</Link>
+            				<Link to="contact" className="contact-button contact-button--index">Contact</Link>
             			</div>
           			</section>
 
@@ -99,7 +99,6 @@ const IndexPage = () => (
 		</div>
 
 	</Layout>
-
 
 )
 

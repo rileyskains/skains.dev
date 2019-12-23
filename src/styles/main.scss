@@ -153,6 +153,16 @@ main {
   }
 }
 
+.hero--interior-page {
+	text-align:center;
+	padding: 4rem;
+
+	h1 {
+		font-size: 3rem;
+    	font-family: 'Vollkorn', serif;
+	}
+}
+
 .content-wrapper {
   	padding: 1rem;
   	max-width: 85%;
@@ -248,7 +258,7 @@ a:focus {
       	}
 }
 
-.index-contact-button {
+.contact-button {
   	padding: .5rem 0 .5rem 0;
     margin: 0 .25rem 0 .25rem;
     text-decoration: none;
@@ -272,8 +282,8 @@ a:focus {
       	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
 }
 
-.index-contact-button:hover,
-.index-contact-button:focus {
+.contact-button:hover,
+.contact-button:focus {
   	box-shadow:
   		0 1.4px 2.2px hsla(0, 0%, 0%, 0.02),
   		0 3.5px 5.3px hsla(0, 0%, 0%, 0.028),
@@ -285,6 +295,22 @@ a:focus {
   		transform: translateY(-3px);
   		transition: all .2s;
   		transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+
+.contact-button--index {
+	background-image: $index-gradient;
+}
+
+.contact-button--work {
+	background-image: $work-gradient;
+}
+
+.contact-button--articles {
+	background-image: $articles-gradient;
+}
+
+.contact-button--contact {
+	background-image: $contact-gradient;
 }
 
 footer {
