@@ -15,9 +15,9 @@ const IndexPage = () => (
 
 	<>
     <SEO title="Home" />
-		<div className="body__background-gradient--index">
+		<div>
 
-			<section className="hero">
+			<section className="hero body__background-gradient--index">
 				<div>
 					<h1>Front-End Developer<br />& Designer</h1>
           			<Link to="contact" className="button">Start a project &rarr;</Link>
