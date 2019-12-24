@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
 
-	<Layout>
+	<>
     <SEO title="Contact" />
 		<div className="body__background-gradient--contact">
 
@@ -36,7 +36,7 @@ const ContactPage = () => (
 
 		</div>
 
-	</Layout>
+	</>
 
 )
 

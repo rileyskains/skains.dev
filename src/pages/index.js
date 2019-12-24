@@ -13,7 +13,7 @@ import a11y from "../images/a11y.svg"
 
 const IndexPage = () => (
 
-	<Layout>
+	<>
     <SEO title="Home" />
 		<div className="body__background-gradient--index">
 
@@ -97,7 +97,7 @@ const IndexPage = () => (
 
 		</div>
 
-	</Layout>
+	</>
 
 )
 

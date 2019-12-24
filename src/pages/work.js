@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const WorkPage = () => (
 
-	<Layout>
+	<>
     <SEO title="Work" />
 		<div className="body__background-gradient--work">
 
@@ -36,7 +36,7 @@ const WorkPage = () => (
 
 		</div>
 
-	</Layout>
+	</>
 
 )
 
