@@ -6,34 +6,15 @@ $articles-gradient: linear-gradient(108.73492398522592deg, hsl(42, 100%, 81%) 6.
 $contact-gradient: linear-gradient(108.73492398522592deg, hsl(72, 88%, 75%) 6.140625%,hsl(188, 95%, 64%) 95.51562499999999%);
 
 
-.body__background-gradient--index {
-	background-image: $index-gradient;
-}
-
-.body__background-gradient--work {
-	background-image: $work-gradient;
-}
-
-.body__background-gradient--articles {
-	background-image: $articles-gradient;
-}
-
-.body__background-gradient--contact {
-	background-image: $contact-gradient;
-}
-
 body {
+	margin: 0;
+	background-color: hsl(0, 0%, 100%);
 	font-family: 'Open Sans', sans-serif;
 	color: hsl(0, 0%, 25%);
-	margin: 0;
 }
 
 img {
 	max-width: 100%;
-}
-
-main {
-	background-color:hsl(0, 0%, 100%);
 }
 
 .content-section {
@@ -45,17 +26,17 @@ main {
 	display: flex;
 	margin: .5rem;
 	padding: 0;
+	background-color: hsl(0, 0%, 100%);
 	list-style: none;
 	font-size: 1.2rem;
-	background-color: hsl(0, 0%, 100%);
 
     a {
+		display: block;
+		margin: 0 .25rem 0 .25rem;
 		padding: .5rem 1rem;
-      	margin: 0 .25rem 0 .25rem;
-      	display: block;
+		border-radius: 7px;
       	text-decoration: none;
       	color: hsl(0, 0%, 35%);
-      	border-radius: 7px;
     }
 
 	.work-gradient-active,
@@ -95,16 +76,16 @@ main {
 .hero {
   	display: grid;
   	grid-template-columns: 2fr 3fr;
-  	grid-gap: 2rem;
+	grid-gap: 2rem;
+	margin-top: 0;
+  	margin-bottom: 0;
   	padding-left: 2rem;
   	padding-right: 2rem;
-  	margin-top: 0;
-  	margin-bottom: 0;
 
   	div:first-child {
-    	display: flex;
+		display: flex;
+		flex-direction: column;
     	justify-content: center;
-    	flex-direction: column;
   	}
 
   	h1 {
@@ -113,28 +94,31 @@ main {
   	}
 
   	.button {
-    	background-color: hsl(0, 0%, 100%);
-    	border: 0;
-    	text-decoration: none;
-    	color: hsl(0, 0%, 25%);
-    	border-radius: 7px;
-    	padding: .5rem 1rem;
-    	font-size: 1.5rem;
-    	width: 250px;
-    	text-align:center;
-    	box-shadow:
+		transition: all .1s;
+		transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+		box-shadow:
         	0 0.9px 2.2px hsla(0, 0%, 0%, 0.02),
         	0 2.1px 5.3px hsla(0, 0%, 0%, 0.028),
         	0 4px 10px hsla(0, 0%, 0%, 0.035),
         	0 7.1px 17.9px hsla(0, 0%, 0%, 0.042),
         	0 13.4px 33.4px hsla(0, 0%, 0%, 0.05),
-        	0 32px 80px hsla(0, 0%, 0%, 0.07);
-    	transition: all .1s;
-    	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+			0 32px 80px hsla(0, 0%, 0%, 0.07);
+		border: 0;
+		border-radius: 7px;
+		width: 250px;
+		padding: .5rem 1rem;
+    	background-color: hsl(0, 0%, 100%);
+    	font-size: 1.5rem;
+		text-decoration: none;
+		text-align:center;
+    	color: hsl(0, 0%, 25%);
 	}
 
   	.button:hover,
   	.button:focus {
+		transform: translateY(-3px);
+		transition: all .2s;
+    	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
     	box-shadow:
     		0 1.4px 2.2px hsla(0, 0%, 0%, 0.02),
     		0 3.5px 5.3px hsla(0, 0%, 0%, 0.028),
@@ -143,15 +127,28 @@ main {
     		0 21.7px 33.4px hsla(0, 0%, 0%, 0.05),
     		0 52px 80px hsla(0, 0%, 0%, 0.07);
     	cursor: pointer;
-    	transform: translateY(-3px);
-    	transition: all .2s;
-    	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
   }
 }
 
+.hero__background-gradient--index {
+	background-image: $index-gradient;
+}
+
+.hero__background-gradient--work {
+	background-image: $work-gradient;
+}
+
+.hero__background-gradient--articles {
+	background-image: $articles-gradient;
+}
+
+.hero__background-gradient--contact {
+	background-image: $contact-gradient;
+}
+
 .hero--interior-page {
-	text-align:center;
 	padding: 4rem;
+	text-align:center;
 
 	h1 {
 		font-size: 3rem;
@@ -160,13 +157,13 @@ main {
 }
 
 .content-wrapper {
-  	padding: 1rem;
+	margin: 0 auto;
   	max-width: 85%;
-  	margin: 0 auto;
+  	padding: 1rem;
 
 	.lead {
-    	max-width: 80%;
-    	margin: 0 auto;
+		margin: 0 auto;
+		max-width: 80%;
     	text-align: center;
   	}
 
@@ -180,8 +177,8 @@ main {
 }
 
 a {
+	text-decoration:underline;
   	color: hsl(193, 81%, 33%);
-  	text-decoration:underline;
 }
 
 a:hover,
@@ -215,9 +212,9 @@ a:focus {
   	grid-gap: 2rem;
 
   	div div {
-    	border-radius: 7px;
+		border: 1px solid hsl(210, 21%, 89%);
+		border-radius: 7px;
     	padding: 2rem;
-    	border: 1px solid hsl(210, 21%, 89%);
   	}
 }
 
@@ -231,16 +228,16 @@ a:focus {
 .contact-grid {
   	display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-gap: 2rem;
-    padding: 2rem;
-    border-radius: 7px;
-    box-shadow:
+	grid-gap: 2rem;
+	box-shadow:
      	0 0.9px 2.2px hsla(0, 0%, 0%, 0.02),
       	0 2.1px 5.3px hsla(0, 0%, 0%, 0.028),
       	0 4px 10px hsla(0, 0%, 0%, 0.035),
       	0 7.1px 17.9px hsla(0, 0%, 0%, 0.042),
       	0 13.4px 33.4px hsla(0, 0%, 0%, 0.05),
       	0 32px 80px hsla(0, 0%, 0%, 0.07);
+	border-radius: 7px;
+	padding: 2rem;
 
     	div {
         	display: flex;
@@ -255,42 +252,40 @@ a:focus {
 }
 
 .contact-button {
+	transition: all .1s;
+	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+	margin: 0 .25rem 0 .25rem;
+	box-shadow:
+		0 0.9px 2.2px hsla(0, 0%, 0%, 0.02),
+		0 2.1px 5.3px hsla(0, 0%, 0%, 0.028),
+		0 4px 10px hsla(0, 0%, 0%, 0.035),
+		0 7.1px 17.9px hsla(0, 0%, 0%, 0.042),
+		0 13.4px 33.4px hsla(0, 0%, 0%, 0.05),
+		0 32px 80px hsla(0, 0%, 0%, 0.07);
+	border: 0;
+	border-radius: 7px;
+	width: 100%;
   	padding: .5rem 0 .5rem 0;
-    margin: 0 .25rem 0 .25rem;
-    text-decoration: none;
-    color: hsl(0, 0%, 35%);
-    border-radius: 7px;
-    background-image: $index-gradient;
-    font-size: 1.25rem;
+	background-image: $index-gradient;
+	font-size: 1.25rem;
+	text-align:center;
+	text-decoration:none !important;
     color: hsl(0, 0%, 0%) !important;
-    text-decoration:none !important;
-    border: 0;
-    width: 100%;
-    text-align:center;
-    box-shadow:
-      	0 0.9px 2.2px hsla(0, 0%, 0%, 0.02),
-      	0 2.1px 5.3px hsla(0, 0%, 0%, 0.028),
-      	0 4px 10px hsla(0, 0%, 0%, 0.035),
-      	0 7.1px 17.9px hsla(0, 0%, 0%, 0.042),
-      	0 13.4px 33.4px hsla(0, 0%, 0%, 0.05),
-      	0 32px 80px hsla(0, 0%, 0%, 0.07);
-      	transition: all .1s;
-      	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
 }
 
 .contact-button:hover,
 .contact-button:focus {
-  	box-shadow:
+	transform: translateY(-3px);
+	transition: all .2s;
+  	transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+	box-shadow:
   		0 1.4px 2.2px hsla(0, 0%, 0%, 0.02),
   		0 3.5px 5.3px hsla(0, 0%, 0%, 0.028),
   		0 6.5px 10px hsla(0, 0%, 0%, 0.035),
   		0 11.6px 17.9px hsla(0, 0%, 0%, 0.042),
   		0 21.7px 33.4px hsla(0, 0%, 0%, 0.05),
   		0 52px 80px hsla(0, 0%, 0%, 0.07);
-  		cursor: pointer;
-  		transform: translateY(-3px);
-  		transition: all .2s;
-  		transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+  	cursor: pointer;
 }
 
 .contact-button--index {
@@ -316,11 +311,11 @@ footer {
 }
 
 .footer-logo-container {
-  	text-align: left;
   	display: flex;
   	flex-direction: column;
   	justify-content: center;
-  	padding: 1rem;
+	padding: 1rem;
+	text-align: left;
 }
 
 .footer-logo-img {
@@ -361,16 +356,30 @@ footer {
     	display: grid;
     	grid-template-columns: 1fr;
     	grid-template-rows: 1fr 1fr;
-    	grid-gap: 0;
+		grid-gap: 0;
+		margin-top: 0;
+    	margin-bottom: 0;
     	padding-left: 1rem;
     	padding-right: 1rem;
-    	margin-top: 0;
-    	margin-bottom: 0;
-  	}
+	  }
+	  
+	.hero__background-gradient--index {
+		
+		div {
+
+			h1, .button {
+				margin-left: auto;
+				margin-right: auto;
+				text-align:center;
+			}
+
+		}
+
+	}
 
   	.content-wrapper .lead {
+		margin: 0 auto;
     	max-width: 85%;
-    	margin: 0 auto;
   	}
 
   	.five-four-grid {
