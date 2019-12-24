@@ -9,11 +9,13 @@ $contact-gradient: linear-gradient(108.73492398522592deg, hsl(72, 88%, 75%) 6.14
 .body__background-gradient--index {
 	background-image: $index-gradient;
 	background-attachment: fixed;
+	background-size: contain;
 }
 
 .body__background-gradient--work {
 	background-image: $work-gradient;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .body__background-gradient--articles {
