@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import skainslogo from "../../public/static/skains-logo.svg"
+import skainslogo from "../images/skains-logo.svg"
 
 
 const Header = ({ siteTitle }) => (

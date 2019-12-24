@@ -3,14 +3,13 @@ import { Link } from "gatsby"
 
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import hero from "../../public/static/hero-humaaans.svg"
-import whiteboard from "../../public/static/whiteboard.svg"
-import skainslogo from "../../public/static/skains-logo.svg"
-import nthchild from "../../public/static/non-svg/nth-child.png"
-import queen from "../../public/static/queen.svg"
-import a11y from "../../public/static/a11y.svg"
+import hero from "../images/hero-humaaans.svg"
+import whiteboard from "../images/whiteboard.svg"
+import skainslogo from "../images/skains-logo.svg"
+import nthchild from "../images/non-svg/nth-child.png"
+import queen from "../images/queen.svg"
+import a11y from "../images/a11y.svg"
 
 const IndexPage = () => (
 
@@ -58,7 +57,7 @@ const IndexPage = () => (
 
           			<section className="lead content-section">
             			<h2>Skills & Passions</h2>
-            			<p>My interests are perpetually evolving, but the boxes below are my staples. Additionally, advocacy for groups in need is something I’m passionate about!</p>
+            			<p>My interests are perpetually evolving, but the boxes below are my staples. Additionally, advocacy for groups in need is something I'm passionate about!</p>
           			</section>
 
 		  			<section className="four-five-grid content-section">
@@ -86,7 +85,7 @@ const IndexPage = () => (
 
           			<section className="contact-grid content-section">
             			<div>
-              				<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
+              				<p>I'm always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
             			</div>
             			<div>
             				<Link to="contact" className="contact-button contact-button--index">Contact</Link>

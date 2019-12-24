@@ -1,0 +1,311 @@
+<svg width="2220" height="2040" viewBox="0 0 2220 2040" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Scene/Wireframe">
+<g id="Mobile3">
+<rect id="Container" x="414" y="228" width="477" height="906" rx="8" fill="#F2F2F2"/>
+<path id="Touch" fill-rule="evenodd" clip-rule="evenodd" d="M651 1077C675.853 1077 696 1056.85 696 1032C696 1007.15 675.853 987 651 987C626.147 987 606 1007.15 606 1032C606 1056.85 626.147 1077 651 1077Z" fill="white"/>
+<g id="Camera">
+<path id="Lens" fill-rule="evenodd" clip-rule="evenodd" d="M612 288C615.314 288 618 285.314 618 282C618 278.686 615.314 276 612 276C608.686 276 606 278.686 606 282C606 285.314 608.686 288 612 288Z" fill="white"/>
+<rect id="Sensor" x="633" y="276" width="63" height="12" rx="2" fill="white"/>
+</g>
+<g id="Rows">
+<g id="Row">
+<rect id="Background" x="456" y="312" width="393" height="162" rx="4" fill="white"/>
+<g id="Text">
+<g clip-path="url(#clip0)">
+<rect id="Name" x="573" y="360.6" width="219" height="24.3" rx="3" fill="#DDE3E9"/>
+<rect id="Name_2" x="573" y="401.1" width="147" height="24.3" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<path id="Avatar" fill-rule="evenodd" clip-rule="evenodd" d="M519 429C538.882 429 555 412.882 555 393C555 373.118 538.882 357 519 357C499.118 357 483 373.118 483 393C483 412.882 499.118 429 519 429Z" fill="#C5CFD6"/>
+</g>
+<g id="Row_2">
+<rect id="Background_2" x="456" y="498" width="393" height="126" rx="4" fill="white"/>
+<g id="Text_2">
+<g clip-path="url(#clip1)">
+<rect id="Name_3" x="573" y="535.8" width="219" height="18.9" rx="3" fill="#DDE3E9"/>
+<rect id="Name_4" x="573" y="567.3" width="147" height="18.9" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<path id="Avatar_2" fill-rule="evenodd" clip-rule="evenodd" d="M519 597C538.882 597 555 580.882 555 561C555 541.118 538.882 525 519 525C499.118 525 483 541.118 483 561C483 580.882 499.118 597 519 597Z" fill="#C5CFD6"/>
+</g>
+<g id="Row_3">
+<rect id="Background_3" x="456" y="648" width="393" height="126" rx="4" fill="white"/>
+<g id="Text_3">
+<g clip-path="url(#clip2)">
+<rect id="Name_5" x="573" y="685.8" width="219" height="18.9" rx="3" fill="#DDE3E9"/>
+<rect id="Name_6" x="573" y="717.3" width="147" height="18.9" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<path id="Avatar_3" fill-rule="evenodd" clip-rule="evenodd" d="M519 747C538.882 747 555 730.882 555 711C555 691.118 538.882 675 519 675C499.118 675 483 691.118 483 711C483 730.882 499.118 747 519 747Z" fill="#AFB9C5"/>
+</g>
+<g id="Row_4">
+<rect id="Background_4" x="456" y="798" width="393" height="126" rx="4" fill="white"/>
+<g id="Text_4">
+<g clip-path="url(#clip3)">
+<rect id="Name_7" x="573" y="835.8" width="219" height="18.9" rx="3" fill="#DDE3E9"/>
+<rect id="Name_8" x="573" y="867.3" width="147" height="18.9" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<path id="Avatar_4" fill-rule="evenodd" clip-rule="evenodd" d="M519 897C538.882 897 555 880.882 555 861C555 841.118 538.882 825 519 825C499.118 825 483 841.118 483 861C483 880.882 499.118 897 519 897Z" fill="#C5CFD6"/>
+</g>
+</g>
+</g>
+<g id="Mobile3_2">
+<rect id="Container_2" x="612" y="306" width="477" height="906" rx="8" fill="#DDE3E9"/>
+<path id="Touch_2" fill-rule="evenodd" clip-rule="evenodd" d="M849 1155C873.853 1155 894 1134.85 894 1110C894 1085.15 873.853 1065 849 1065C824.147 1065 804 1085.15 804 1110C804 1134.85 824.147 1155 849 1155Z" fill="white"/>
+<g id="Camera_2">
+<path id="Lens_2" fill-rule="evenodd" clip-rule="evenodd" d="M810 366C813.314 366 816 363.314 816 360C816 356.686 813.314 354 810 354C806.686 354 804 356.686 804 360C804 363.314 806.686 366 810 366Z" fill="white"/>
+<rect id="Sensor_2" x="831" y="354" width="63" height="12" rx="2" fill="white"/>
+</g>
+<g id="Rows_2">
+<g id="Row_5">
+<rect id="Container_3" x="654" y="390" width="393" height="162" rx="4" fill="white"/>
+<g id="Text Stuff">
+<g clip-path="url(#clip4)">
+<rect id="Label" x="681" y="438.6" width="219" height="24.3" rx="3" fill="#DDE3E9"/>
+<rect id="Label_2" x="681" y="479.1" width="147" height="24.3" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<g id="Check">
+<path id="Background_5" fill-rule="evenodd" clip-rule="evenodd" d="M1005 492C1016.6 492 1026 482.598 1026 471C1026 459.402 1016.6 450 1005 450C993.402 450 984 459.402 984 471C984 482.598 993.402 492 1005 492Z" fill="#DDE3E9"/>
+<path id="Indicator" fill-rule="evenodd" clip-rule="evenodd" d="M1005 480C1009.97 480 1014 475.971 1014 471C1014 466.029 1009.97 462 1005 462C1000.03 462 996 466.029 996 471C996 475.971 1000.03 480 1005 480Z" fill="#F2F2F2"/>
+</g>
+</g>
+<g id="Row_6">
+<rect id="Background_6" x="654" y="576" width="393" height="126" rx="4" fill="white"/>
+<g id="Text_5">
+<g clip-path="url(#clip5)">
+<rect id="Name_9" x="771" y="613.8" width="219" height="18.9" rx="3" fill="#DDE3E9"/>
+<rect id="Name_10" x="771" y="645.3" width="147" height="18.9" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<path id="Avatar_5" fill-rule="evenodd" clip-rule="evenodd" d="M717 675C736.882 675 753 658.882 753 639C753 619.118 736.882 603 717 603C697.118 603 681 619.118 681 639C681 658.882 697.118 675 717 675Z" fill="#C5CFD6"/>
+</g>
+<g id="Row_7">
+<rect id="Container_4" x="654" y="726" width="393" height="126" rx="4" fill="white"/>
+<g id="Text Stuff_2">
+<g clip-path="url(#clip6)">
+<rect id="Label_3" x="681" y="763.8" width="219" height="18.9" rx="3" fill="#DDE3E9"/>
+<rect id="Label_4" x="681" y="795.3" width="147" height="18.9" rx="3" fill="#AFB9C5"/>
+</g>
+</g>
+<g id="Check_2">
+<path id="Background_7" fill-rule="evenodd" clip-rule="evenodd" d="M1005 810C1016.6 810 1026 800.598 1026 789C1026 777.402 1016.6 768 1005 768C993.402 768 984 777.402 984 789C984 800.598 993.402 810 1005 810Z" fill="#DDE3E9"/>
+<path id="Indicator_2" fill-rule="evenodd" clip-rule="evenodd" d="M1005 798C1009.97 798 1014 793.971 1014 789C1014 784.029 1009.97 780 1005 780C1000.03 780 996 784.029 996 789C996 793.971 1000.03 798 1005 798Z" fill="#F2F2F2"/>
+</g>
+</g>
+<g id="Row_8">
+<rect id="Background_8" x="654" y="876" width="393" height="126" rx="4" fill="white"/>
+<g id="Text_6">
+<g clip-path="url(#clip7)">
+<rect id="Name_11" x="771" y="913.8" width="219" height="18.9" rx="3" fill="#DDE3E9"/>
+<rect id="Name_12" x="771" y="945.3" width="147" height="18.9" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<path id="Avatar_6" fill-rule="evenodd" clip-rule="evenodd" d="M717 975C736.882 975 753 958.882 753 939C753 919.118 736.882 903 717 903C697.118 903 681 919.118 681 939C681 958.882 697.118 975 717 975Z" fill="#C5CFD6"/>
+</g>
+</g>
+</g>
+<g id="Web">
+<rect id="Container_5" x="810" y="381" width="1005" height="1038" rx="8" fill="#F2F2F2"/>
+<rect id="Background_9" x="1557" y="510" width="210" height="243" rx="8" fill="white"/>
+<g id="Profile Info">
+<path id="Avatar_7" fill-rule="evenodd" clip-rule="evenodd" d="M1662 651C1688.51 651 1710 629.51 1710 603C1710 576.49 1688.51 555 1662 555C1635.49 555 1614 576.49 1614 603C1614 629.51 1635.49 651 1662 651Z" fill="#DDE3E9"/>
+<rect id="Name_13" x="1587" y="663" width="150" height="18" rx="3" fill="#DDE3E9"/>
+<rect id="Name_14" x="1611" y="693" width="102" height="18" rx="3" fill="#DDE3E9"/>
+</g>
+<path id="Header" d="M810 405C810 391.745 820.745 381 834 381H1791C1804.25 381 1815 391.745 1815 405V462H810V405Z" fill="#C5CFD6"/>
+<g id="Buttons">
+<path id="buttons" fill-rule="evenodd" clip-rule="evenodd" d="M849 435C855.627 435 861 429.627 861 423C861 416.373 855.627 411 849 411C842.373 411 837 416.373 837 423C837 429.627 842.373 435 849 435Z" fill="#F2F2F2"/>
+<path id="buttons_2" fill-rule="evenodd" clip-rule="evenodd" d="M885 435C891.627 435 897 429.627 897 423C897 416.373 891.627 411 885 411C878.373 411 873 416.373 873 423C873 429.627 878.373 435 885 435Z" fill="#F2F2F2"/>
+<path id="buttons_3" fill-rule="evenodd" clip-rule="evenodd" d="M921 435C927.627 435 933 429.627 933 423C933 416.373 927.627 411 921 411C914.373 411 909 416.373 909 423C909 429.627 914.373 435 921 435Z" fill="#F2F2F2"/>
+</g>
+<g id="Components">
+<rect id="Background_10" x="1557" y="777" width="210" height="582" rx="8" fill="white"/>
+<g id="Rows_3">
+<rect id="Data" x="1611" y="831" width="102" height="78" rx="4" fill="#DDE3E9"/>
+<rect id="Data_2" x="1611" y="933" width="102" height="75" rx="4" fill="#AFB9C5"/>
+<rect id="Data_3" x="1611" y="1032" width="102" height="75" rx="4" fill="#DDE3E9"/>
+<rect id="Data_4" x="1611" y="1230" width="102" height="75" rx="4" fill="#DDE3E9"/>
+<rect id="Data_5" x="1611" y="1131" width="102" height="75" rx="4" fill="#C5CFD6"/>
+</g>
+</g>
+<g id="Rows_4">
+<g id="Row_9">
+<rect id="Container_6" x="858" y="513" width="675" height="141" rx="4" fill="white"/>
+<g id="Text Stuff_3">
+<g clip-path="url(#clip8)">
+<rect id="Label_5" x="885" y="555.3" width="501" height="21.15" rx="3" fill="#DDE3E9"/>
+<rect id="Label_6" x="885" y="590.55" width="336.288" height="21.15" rx="3" fill="#DDE3E9"/>
+</g>
+</g>
+<g id="Check_3">
+<path id="Background_11" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 604.5C1472.46 604.5 1481.86 595.098 1481.86 583.5C1481.86 571.902 1472.46 562.5 1460.86 562.5C1449.26 562.5 1439.86 571.902 1439.86 583.5C1439.86 595.098 1449.26 604.5 1460.86 604.5Z" fill="#DDE3E9"/>
+<path id="Indicator_3" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 592.5C1465.83 592.5 1469.86 588.471 1469.86 583.5C1469.86 578.529 1465.83 574.5 1460.86 574.5C1455.89 574.5 1451.86 578.529 1451.86 583.5C1451.86 588.471 1455.89 592.5 1460.86 592.5Z" fill="#F2F2F2"/>
+</g>
+</g>
+<g id="Row_10">
+<rect id="Container_7" x="858" y="678" width="675" height="117" rx="4" fill="white"/>
+<g id="Text Stuff_4">
+<g clip-path="url(#clip9)">
+<rect id="Label_7" x="885" y="713.1" width="501" height="17.55" rx="2.925" fill="#DDE3E9"/>
+<rect id="Label_8" x="885" y="742.35" width="336.288" height="17.55" rx="2.925" fill="#DDE3E9"/>
+</g>
+</g>
+<g id="Check_4">
+<path id="Background_12" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 757.5C1472.46 757.5 1481.86 748.098 1481.86 736.5C1481.86 724.902 1472.46 715.5 1460.86 715.5C1449.26 715.5 1439.86 724.902 1439.86 736.5C1439.86 748.098 1449.26 757.5 1460.86 757.5Z" fill="#DDE3E9"/>
+<path id="Indicator_4" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 745.5C1465.83 745.5 1469.86 741.471 1469.86 736.5C1469.86 731.529 1465.83 727.5 1460.86 727.5C1455.89 727.5 1451.86 731.529 1451.86 736.5C1451.86 741.471 1455.89 745.5 1460.86 745.5Z" fill="#F2F2F2"/>
+</g>
+</g>
+<g id="Row_11">
+<rect id="Container_8" x="858" y="819" width="675" height="117" rx="4" fill="white"/>
+<g id="Text Stuff_5">
+<g clip-path="url(#clip10)">
+<rect id="Label_9" x="885" y="854.1" width="501" height="17.55" rx="2.925" fill="#DDE3E9"/>
+<rect id="Label_10" x="885" y="883.35" width="336.288" height="17.55" rx="2.925" fill="#DDE3E9"/>
+</g>
+</g>
+<g id="Check_5">
+<path id="Background_13" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 898.5C1472.46 898.5 1481.86 889.098 1481.86 877.5C1481.86 865.902 1472.46 856.5 1460.86 856.5C1449.26 856.5 1439.86 865.902 1439.86 877.5C1439.86 889.098 1449.26 898.5 1460.86 898.5Z" fill="#DDE3E9"/>
+<path id="Indicator_5" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 886.5C1465.83 886.5 1469.86 882.471 1469.86 877.5C1469.86 872.529 1465.83 868.5 1460.86 868.5C1455.89 868.5 1451.86 872.529 1451.86 877.5C1451.86 882.471 1455.89 886.5 1460.86 886.5Z" fill="#AFB9C5"/>
+</g>
+</g>
+<g id="Row_12">
+<rect id="Container_9" x="858" y="1242" width="675" height="117" rx="4" fill="white"/>
+<g id="Text Stuff_6">
+<g clip-path="url(#clip11)">
+<rect id="Label_11" x="885" y="1277.1" width="501" height="17.55" rx="2.925" fill="#DDE3E9"/>
+<rect id="Label_12" x="885" y="1306.35" width="336.288" height="17.55" rx="2.925" fill="#DDE3E9"/>
+</g>
+</g>
+<g id="Check_6">
+<path id="Background_14" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 1321.5C1472.46 1321.5 1481.86 1312.1 1481.86 1300.5C1481.86 1288.9 1472.46 1279.5 1460.86 1279.5C1449.26 1279.5 1439.86 1288.9 1439.86 1300.5C1439.86 1312.1 1449.26 1321.5 1460.86 1321.5Z" fill="#DDE3E9"/>
+<path id="Indicator_6" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 1309.5C1465.83 1309.5 1469.86 1305.47 1469.86 1300.5C1469.86 1295.53 1465.83 1291.5 1460.86 1291.5C1455.89 1291.5 1451.86 1295.53 1451.86 1300.5C1451.86 1305.47 1455.89 1309.5 1460.86 1309.5Z" fill="#F2F2F2"/>
+</g>
+</g>
+<g id="Row_13">
+<rect id="Container_10" x="858" y="1101" width="675" height="117" rx="4" fill="white"/>
+<g id="Text Stuff_7">
+<g clip-path="url(#clip12)">
+<rect id="Label_13" x="885" y="1136.1" width="501" height="17.55" rx="2.925" fill="#DDE3E9"/>
+<rect id="Label_14" x="885" y="1165.35" width="336.288" height="17.55" rx="2.925" fill="#DDE3E9"/>
+</g>
+</g>
+<g id="Check_7">
+<path id="Background_15" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 1180.5C1472.46 1180.5 1481.86 1171.1 1481.86 1159.5C1481.86 1147.9 1472.46 1138.5 1460.86 1138.5C1449.26 1138.5 1439.86 1147.9 1439.86 1159.5C1439.86 1171.1 1449.26 1180.5 1460.86 1180.5Z" fill="#DDE3E9"/>
+<path id="Indicator_7" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 1168.5C1465.83 1168.5 1469.86 1164.47 1469.86 1159.5C1469.86 1154.53 1465.83 1150.5 1460.86 1150.5C1455.89 1150.5 1451.86 1154.53 1451.86 1159.5C1451.86 1164.47 1455.89 1168.5 1460.86 1168.5Z" fill="#F2F2F2"/>
+</g>
+</g>
+<g id="Row_14">
+<rect id="Container_11" x="858" y="960" width="675" height="117" rx="4" fill="white"/>
+<g id="Text Stuff_8">
+<g clip-path="url(#clip13)">
+<rect id="Label_15" x="885" y="995.1" width="501" height="17.55" rx="2.925" fill="#DDE3E9"/>
+<rect id="Label_16" x="885" y="1024.35" width="336.288" height="17.55" rx="2.925" fill="#DDE3E9"/>
+</g>
+</g>
+<g id="Check_8">
+<path id="Background_16" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 1039.5C1472.46 1039.5 1481.86 1030.1 1481.86 1018.5C1481.86 1006.9 1472.46 997.5 1460.86 997.5C1449.26 997.5 1439.86 1006.9 1439.86 1018.5C1439.86 1030.1 1449.26 1039.5 1460.86 1039.5Z" fill="#DDE3E9"/>
+<path id="Indicator_8" fill-rule="evenodd" clip-rule="evenodd" d="M1460.86 1027.5C1465.83 1027.5 1469.86 1023.47 1469.86 1018.5C1469.86 1013.53 1465.83 1009.5 1460.86 1009.5C1455.89 1009.5 1451.86 1013.53 1451.86 1018.5C1451.86 1023.47 1455.89 1027.5 1460.86 1027.5Z" fill="#F2F2F2"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Graph">
+<rect id="Value" x="1560" y="252" width="18" height="75" rx="3" fill="#DDE3E9"/>
+<rect id="Value_2" x="1602" y="204" width="18" height="123" rx="3" fill="#DDE3E9"/>
+<rect id="Value_3" x="1644" y="180" width="18" height="147" rx="3" fill="#DDE3E9"/>
+<rect id="Value_4" x="1686" y="204" width="18" height="123" rx="3" fill="#DDE3E9"/>
+<rect id="Value_5" x="1728" y="156" width="18" height="171" rx="3" fill="#C5CFD6"/>
+</g>
+<g id="Pie Chart">
+<path id="Value_6" fill-rule="evenodd" clip-rule="evenodd" d="M402 1278.77C402 1245.35 429.006 1218 462 1218V1278.77L420.996 1323C409.332 1312.19 402 1296.32 402 1278.77Z" fill="#F2F2F2"/>
+<path id="Value_7" fill-rule="evenodd" clip-rule="evenodd" d="M460.412 1278H521.004C521.004 1293.66 514.615 1308.34 504.514 1319C493.405 1330.67 477.584 1338 460.412 1338C444.595 1338 430.117 1331.67 419.004 1321.67L460.412 1278Z" fill="#AFB9C5"/>
+<path id="Value_8" fill-rule="evenodd" clip-rule="evenodd" d="M522 1278C522 1245.01 494.994 1218 462 1218V1278H522ZM432 1218L456 1272L402 1248C407.34 1234 419.331 1223.34 432 1218Z" fill="#C5CFD6"/>
+</g>
+<g id="Chart">
+<path id="Value_9" fill-rule="evenodd" clip-rule="evenodd" d="M2036.3 1101.54C2030.53 1107.66 2022.37 1111.5 2013.29 1111.5C1995.83 1111.5 1981.69 1097.4 1981.69 1080C1981.69 1062.6 1995.83 1048.5 2013.29 1048.5V990C1963.64 990 1923 1030.51 1923 1080C1923 1129.49 1963.64 1170 2013.29 1170C2039.36 1170 2062.93 1159 2079 1141.51L2036.3 1101.54Z" fill="#F2F2F2"/>
+<path id="Value_10" fill-rule="evenodd" clip-rule="evenodd" d="M2013 990V1048.5C2030.4 1048.5 2044.5 1062.6 2044.5 1080H2103C2103 1030.51 2062.49 990 2013 990Z" fill="#AFB9C5"/>
+<path id="Value_11" fill-rule="evenodd" clip-rule="evenodd" d="M2043.29 1080C2043.29 1090.22 2038.48 1099.31 2031 1105.17L2067.79 1152C2089.2 1135.24 2103 1109.25 2103 1080H2043.29Z" fill="#C5CFD6"/>
+</g>
+<g id="Chart_2">
+<path id="Value_12" fill-rule="evenodd" clip-rule="evenodd" d="M1464.15 274.512C1459.72 279.204 1453.44 282.15 1446.45 282.15C1433.03 282.15 1422.14 271.338 1422.14 258C1422.14 244.662 1433.03 233.85 1446.45 233.85V189C1408.26 189 1377 220.057 1377 258C1377 295.943 1408.26 327 1446.45 327C1466.51 327 1484.64 318.568 1497 305.155L1464.15 274.512Z" fill="#F2F2F2"/>
+<path id="Value_13" fill-rule="evenodd" clip-rule="evenodd" d="M1446 189V233.85C1459.34 233.85 1470.15 244.662 1470.15 258H1515C1515 220.057 1483.94 189 1446 189Z" fill="#AFB9C5"/>
+<path id="Value_14" fill-rule="evenodd" clip-rule="evenodd" d="M1470.22 258C1470.22 265.666 1466.61 272.48 1461 276.879L1488.59 312C1504.65 299.426 1515 279.936 1515 258H1470.22Z" fill="#C5CFD6"/>
+</g>
+<g id="Image">
+<path id="Fill 35" fill-rule="evenodd" clip-rule="evenodd" d="M372.021 326.959C372.009 326.989 371.997 327.019 371.979 327.055C371.997 327.025 372.021 326.905 372.021 326.959Z" fill="#C5CFD6"/>
+<path id="Fill 37" fill-rule="evenodd" clip-rule="evenodd" d="M371.993 327.004C371.993 327.01 371.987 327.022 371.987 327.034C371.987 327.004 372.041 326.914 371.993 327.004Z" fill="#C5CFD6"/>
+<path id="Fill 39" fill-rule="evenodd" clip-rule="evenodd" d="M372.201 326.497C372.159 326.617 372.105 326.731 372.057 326.851C372.081 326.791 372.105 326.743 372.129 326.683C371.505 328.243 371.901 327.229 372.201 326.497Z" fill="#C5CFD6"/>
+<path id="Fill 41" fill-rule="evenodd" clip-rule="evenodd" d="M372.067 326.858C372.043 326.912 372.019 326.972 371.995 327.026C371.821 327.362 372.067 326.858 372.067 326.858Z" fill="#C5CFD6"/>
+<path id="Fill 45" fill-rule="evenodd" clip-rule="evenodd" d="M371.997 327.006C371.997 327 371.997 327 372.003 326.994C371.997 327 371.997 327 371.997 327.006Z" fill="#C5CFD6"/>
+<path id="Fill 47" fill-rule="evenodd" clip-rule="evenodd" d="M371.969 327.049C371.933 327.121 372.137 326.773 371.969 327.049V327.049Z" fill="#C5CFD6"/>
+<path id="Fill 49" fill-rule="evenodd" clip-rule="evenodd" d="M371.994 327.006L372.006 326.994C372 327 372 327.006 371.994 327.006Z" fill="#C5CFD6"/>
+<rect id="Photo Background" x="228" y="171" width="285" height="189" rx="4" fill="#DDE3E9"/>
+<g id="icons8-night_landscape">
+<path id="Mountains" fill-rule="evenodd" clip-rule="evenodd" d="M336 225L252 360H420L336 225Z" fill="#AFB9C5"/>
+<path id="Mountains_2" fill-rule="evenodd" clip-rule="evenodd" d="M418.5 261L345 360H492L418.5 261Z" fill="#C5CFD6"/>
+</g>
+<path id="Sun" fill-rule="evenodd" clip-rule="evenodd" d="M450 261C464.912 261 477 248.912 477 234C477 219.088 464.912 207 450 207C435.088 207 423 219.088 423 234C423 248.912 435.088 261 450 261Z" fill="white"/>
+</g>
+<g id="Image_2">
+<path id="Fill 35_2" fill-rule="evenodd" clip-rule="evenodd" d="M1802.98 1607.96C1802.99 1607.99 1803 1608.02 1803.02 1608.05C1803 1608.02 1802.98 1607.9 1802.98 1607.96Z" fill="#C5CFD6"/>
+<path id="Fill 37_2" fill-rule="evenodd" clip-rule="evenodd" d="M1803.01 1608C1803.01 1608.01 1803.01 1608.02 1803.01 1608.03C1803.01 1608 1802.96 1607.91 1803.01 1608Z" fill="#C5CFD6"/>
+<path id="Fill 39_2" fill-rule="evenodd" clip-rule="evenodd" d="M1802.8 1607.5C1802.84 1607.62 1802.89 1607.73 1802.94 1607.85C1802.92 1607.79 1802.89 1607.74 1802.87 1607.68C1803.49 1609.24 1803.1 1608.23 1802.8 1607.5Z" fill="#C5CFD6"/>
+<path id="Fill 41_2" fill-rule="evenodd" clip-rule="evenodd" d="M1802.93 1607.86C1802.96 1607.91 1802.98 1607.97 1803 1608.03C1803.18 1608.36 1802.93 1607.86 1802.93 1607.86Z" fill="#C5CFD6"/>
+<path id="Fill 45_2" fill-rule="evenodd" clip-rule="evenodd" d="M1803 1608.01C1803 1608 1803 1608 1803 1607.99C1803 1608 1803 1608 1803 1608.01Z" fill="#C5CFD6"/>
+<path id="Fill 47_2" fill-rule="evenodd" clip-rule="evenodd" d="M1803.03 1608.05C1803.07 1608.12 1802.86 1607.77 1803.03 1608.05V1608.05Z" fill="#C5CFD6"/>
+<path id="Fill 49_2" fill-rule="evenodd" clip-rule="evenodd" d="M1803.01 1608.01L1802.99 1607.99C1803 1608 1803 1608.01 1803.01 1608.01Z" fill="#C5CFD6"/>
+<rect id="Photo Background_2" width="142" height="94" rx="4" transform="matrix(-3 0 0 3 2016 1377)" fill="#DDE3E9"/>
+<g id="icons8-night_landscape_2">
+<path id="Mountains_3" fill-rule="evenodd" clip-rule="evenodd" d="M1857.82 1458L1980.99 1659H1734.66L1857.82 1458Z" fill="#AFB9C5"/>
+<path id="Mountains_4" fill-rule="evenodd" clip-rule="evenodd" d="M1730.83 1511.84L1839.72 1659H1621.95L1730.83 1511.84Z" fill="#C5CFD6"/>
+</g>
+<path id="Sun_2" fill-rule="evenodd" clip-rule="evenodd" d="M1684.5 1512C1662.13 1512 1644 1493.87 1644 1471.5C1644 1449.13 1662.13 1431 1684.5 1431C1706.87 1431 1725 1449.13 1725 1471.5C1725 1493.87 1706.87 1512 1684.5 1512Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect x="573" y="360.6" width="219" height="64.8" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect x="573" y="535.8" width="219" height="50.4" fill="white"/>
+</clipPath>
+<clipPath id="clip2">
+<rect x="573" y="685.8" width="219" height="50.4" fill="white"/>
+</clipPath>
+<clipPath id="clip3">
+<rect x="573" y="835.8" width="219" height="50.4" fill="white"/>
+</clipPath>
+<clipPath id="clip4">
+<rect x="681" y="438.6" width="219" height="64.8" fill="white"/>
+</clipPath>
+<clipPath id="clip5">
+<rect x="771" y="613.8" width="219" height="50.4" fill="white"/>
+</clipPath>
+<clipPath id="clip6">
+<rect x="681" y="763.8" width="219" height="50.4" fill="white"/>
+</clipPath>
+<clipPath id="clip7">
+<rect x="771" y="913.8" width="219" height="50.4" fill="white"/>
+</clipPath>
+<clipPath id="clip8">
+<rect x="885" y="555.3" width="501" height="56.4" fill="white"/>
+</clipPath>
+<clipPath id="clip9">
+<rect x="885" y="713.1" width="501" height="46.8" fill="white"/>
+</clipPath>
+<clipPath id="clip10">
+<rect x="885" y="854.1" width="501" height="46.8" fill="white"/>
+</clipPath>
+<clipPath id="clip11">
+<rect x="885" y="1277.1" width="501" height="46.8" fill="white"/>
+</clipPath>
+<clipPath id="clip12">
+<rect x="885" y="1136.1" width="501" height="46.8" fill="white"/>
+</clipPath>
+<clipPath id="clip13">
+<rect x="885" y="995.1" width="501" height="46.8" fill="white"/>
+</clipPath>
+</defs>
+</svg>
