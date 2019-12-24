@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import hero from "../images/hero-humaaans.svg"
 import whiteboard from "../images/whiteboard.svg"
 import skainslogo from "../images/skains-logo.svg"
-import nthchild from "../images/non-svg/nth-child.PNG"
+import nthchild from "../images/non-svg/nth-child.jpg"
 import queen from "../images/queen.svg"
 import a11y from "../images/a11y.svg"
 
