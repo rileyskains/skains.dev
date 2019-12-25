@@ -96,6 +96,9 @@ img {
   	.button {
 		transition: all .1s;
 		transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		box-shadow:
         	0 0.9px 2.2px hsla(0, 0%, 0%, 0.02),
         	0 2.1px 5.3px hsla(0, 0%, 0%, 0.028),
@@ -103,9 +106,11 @@ img {
         	0 7.1px 17.9px hsla(0, 0%, 0%, 0.042),
         	0 13.4px 33.4px hsla(0, 0%, 0%, 0.05),
 			0 32px 80px hsla(0, 0%, 0%, 0.07);
+		margin-bottom: 2rem;
 		border: 0;
 		border-radius: 7px;
 		width: 250px;
+		height: 50px;
 		padding: .5rem 1rem;
     	background-color: hsl(0, 0%, 100%);
     	font-size: 1.5rem;
@@ -212,9 +217,9 @@ a:focus {
   	grid-gap: 2rem;
 
   	div div {
-		border: 1px solid hsl(210, 21%, 89%);
 		border-radius: 7px;
-    	padding: 2rem;
+		padding: 2rem;
+		background-color: hsl(0, 0%, 98%);
   	}
 }
 
@@ -229,14 +234,12 @@ a:focus {
   	display: grid;
     grid-template-columns: 3fr 1fr;
 	grid-gap: 2rem;
-	box-shadow:
-     	0 0.9px 2.2px hsla(0, 0%, 0%, 0.02),
-      	0 2.1px 5.3px hsla(0, 0%, 0%, 0.028),
-      	0 4px 10px hsla(0, 0%, 0%, 0.035),
-      	0 7.1px 17.9px hsla(0, 0%, 0%, 0.042),
-      	0 13.4px 33.4px hsla(0, 0%, 0%, 0.05),
-      	0 32px 80px hsla(0, 0%, 0%, 0.07);
+	margin: 0 auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	border: 1px solid hsl(210, 21%, 89%);
 	border-radius: 7px;
+	width: 80%;
 	padding: 2rem;
 
     	div {
@@ -330,6 +333,12 @@ footer {
 
 .footer-copyright {
   	text-align:right;
+}
+
+.outline {
+	border: 1px solid hsl(210, 21%, 89%);
+	border-radius: 7px;
+    padding: 2rem;
 }
 
 
