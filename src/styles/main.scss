@@ -180,7 +180,12 @@ img {
 		margin: 0 auto;
 		max-width: 80%;
     	text-align: center;
-  	}
+	  }
+	  
+	.interior-lead {
+		max-width: 80%;
+		text-align: left;
+	  }
 
   	h2 {
     	font-size: 2rem;
@@ -317,6 +322,10 @@ a:focus {
 	background-image: $contact-gradient;
 }
 
+.contact-button--post {
+	background-image: $post-gradient;
+}
+
 footer {
   	display: grid;
   	grid-template-columns: 1fr 2fr 1fr;
@@ -415,9 +424,9 @@ footer {
     	padding-left: 1rem;
     	padding-right: 1rem;
 	  }
-	  
+
 	.hero__background-gradient--index {
-		
+
 		div {
 
 			h1, .button {

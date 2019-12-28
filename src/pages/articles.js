@@ -18,9 +18,9 @@ class ArticlesPage extends React.Component {
       				</section>
 
 					<div className="content-wrapper">
-						<section className="lead content-section">
-							<h2>Making the world better through websites.</h2>
-							<p>I create functional and accessible websites and web applications. Hire me to build a website, put together a design, or write an article.</p>
+						<section className="interior-lead content-section">
+							<h2>Find something that interests you.</h2>
+							<p>I write about development, my own investigations, and things that are going on in my life.</p>
 						</section>
 
         				<section className="main-section articles-container-grid">
@@ -31,7 +31,7 @@ class ArticlesPage extends React.Component {
 										<article key={node.fields.slug}>
                 							<h3>{title}</h3>
                   							<p className="article-date">{node.frontmatter.date}</p>
-                						
+
 											<section>
                   								<p
                     								dangerouslySetInnerHTML={{
@@ -44,7 +44,7 @@ class ArticlesPage extends React.Component {
             					)
           					})}
         				</section>
-				
+
 						<section className="contact-grid content-section">
 							<div>
 								<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>

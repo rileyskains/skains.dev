@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 class ArticleTemplate extends React.Component {
   	render() {
     	const post = this.props.data.markdownRemark
-    	const { previous, next } = this.props.pageContext
 
     return (
       	<>
@@ -27,6 +26,16 @@ class ArticleTemplate extends React.Component {
           				<section dangerouslySetInnerHTML={{ __html: post.html }} />
         			</article>
         		</div>
+
+
+				<section className="contact-grid content-section">
+					<div>
+						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
+					</div>
+					<div>
+						<Link to="contact" className="contact-button contact-button--post">Contact</Link>
+					</div>
+				</section>
         	</div>
       	</>
     )

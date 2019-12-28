@@ -15,9 +15,9 @@ const WorkPage = () => (
 
 			<div className="content-wrapper">
 
-				<section className="lead content-section">
-					<h2>Making the world better through websites.</h2>
-					<p>I create functional and accessible websites and web applications. Hire me to build a website, put together a design, or write an article.</p>
+				<section className="interior-lead content-section">
+					<h2>Constantly working on new things.</h2>
+					<p>This section is temporarily a little empty as I labor to build things that showcase what my work is all about. Check back frequently!</p>
 				</section>
 
 				<section className="contact-grid content-section">
