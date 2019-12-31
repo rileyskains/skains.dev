@@ -35,7 +35,7 @@ const WorkPage = () => (
 						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--work">Contact</Link>
+						<Link to="contact" className="contact-button contact-button--post">Contact</Link>
 					</div>
 				</section>
 
