@@ -21,7 +21,7 @@ class ArticleTemplate extends React.Component {
   					<p>{post.frontmatter.date}</p>
     			</section>
 
-      			<div className="content-wrapper">
+      			<div className="content-wrapper article-wrapper">
         			<article>
           				<section dangerouslySetInnerHTML={{ __html: post.html }} />
         			</article>
