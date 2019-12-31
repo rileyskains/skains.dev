@@ -17,7 +17,7 @@ const IndexPage = () => (
 
 			<section className="hero hero__background-gradient--index">
 				<div>
-					<h1>Front-End Developer<br />& Designer</h1>
+					<h1>Front-End Developer & Designer</h1>
           			<Link to="contact" className="button">Start a project &rarr;</Link>
         		</div>
 				<div>
