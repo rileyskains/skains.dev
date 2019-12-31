@@ -32,9 +32,9 @@ Elon Musk pops into my heads as a very popular person that matches nearly all of
 
 The people who embody my **likes** list are the ones who feel authentic in their speech and actions. Frequently, I find these to be individuals that work in a small office setting, work as a freelancer, or work in an environment that encourages them to be who they truly are.
 
-![Glitch website screenshot](glitch-mobile-screenshot.png)
-
 To compare apples to apples, Elon Musk's counter-CEO would be [Anil Dash](https://anildash.com/) (eight-letter names and everything). Anil Dash is the CEO of [Glitch](https://glitch.com/), a company that, in my naive opinion, is the pinnacle of ethics and openness in the tech community. I highly recommend you have a look at [Anil's Twitter](https://twitter.com/anildash) to see for yourself his thoughts and opinions!
+
+![Glitch website screenshot](glitch-mobile-screenshot.png)
 
 While I look at the lists above, I see some of myself in both the likes and dislikes. I **don't do** the things I like enough and I **do** the things I dislike too much. My re-branding for 2020 is meant to tackle that disparity in myself.
 
@@ -62,9 +62,9 @@ While being completely forgotten is not something I fear in general - it's proba
 
 It doesn't have to be something big. It doesn't need to be a huge family home that can be passed down for generations or a monumental trust fund that sets my family up financially for the rest of their lives. While those would be great things, I can happily live with something smaller.
 
-![Lawrence Joseph Nevle](lawrence-joseph-nevle.jpg)
-
 As an example, on my mother's side, there are constant memories of my great-grandfather, my 2nd great-grandfather, and my 3rd great-grandfather. All of them were blacksmiths, and there are pieces on the family fireplace from their occupations. An anvil, something from a railroad, a kitchen trivet, or a piece of metal from some shipping light can start a conversation and trigger a memory. They are small and nearly worthless things, but they mean a lot.
+
+![Lawrence Joseph Nevle](lawrence-joseph-nevle.jpg)
 
 Moreover, being a blacksmith was a skill they possessed, mastered, and was valuable at the time. It wasn't exceedingly rare or strange to be a blacksmith - it was pretty common in that time and in that area. They just made the best of it!
 

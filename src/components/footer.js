@@ -19,7 +19,7 @@ const Footer = () => (
 				<p><a href="https://github.com/rileyskains">GitHub</a></p>
 			</div>
         	<div>
-				<p><Link to="attributions">Attributions</Link></p>
+				<p><Link to="acknowledgements">Acknowledgements</Link></p>
 			</div>
       	</div>
       	<div className="footer-copyright">

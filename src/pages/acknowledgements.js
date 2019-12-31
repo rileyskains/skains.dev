@@ -3,14 +3,14 @@ import { Link } from "gatsby"
 
 import SEO from "../components/seo"
 
-const WorkPage = () => (
+const AcknowledgementsPage = () => (
 
 	<>
-    <SEO title="Work" />
+    <SEO title="Acknowledgements" />
 		<div>
 
 			<section className="hero--interior-page hero__background-gradient--post">
-				<h1>Current & Previous Projects</h1>
+				<h1>Acknowledgements</h1>
       		</section>
 
 			<div className="content-wrapper">
@@ -47,4 +47,4 @@ const WorkPage = () => (
 
 )
 
-export default WorkPage
+export default AcknowledgementsPage
