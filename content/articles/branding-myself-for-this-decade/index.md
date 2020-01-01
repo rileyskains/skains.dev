@@ -62,7 +62,7 @@ While being completely forgotten is not something I fear in general - it's proba
 
 It doesn't have to be something big. It doesn't need to be a huge family home that can be passed down for generations or a monumental trust fund that sets my family up financially for the rest of their lives. While those would be great things, I can happily live with something smaller.
 
-As an example, on my mother's side, there are constant memories of my great-grandfather, my 2nd great-grandfather, and my 3rd great-grandfather. All of them were blacksmiths, and there are pieces on the family fireplace from their occupations. An anvil, something from a railroad, a kitchen trivet, or a piece of metal from some shipping light can start a conversation and trigger a memory. They are small and nearly worthless things, but they mean a lot.
+As an example, on my mother's side, there are constant memories of my great-grandfather, my 2nd great-grandfather, and my 3rd great-grandfather. All of them were blacksmiths, and there are pieces on the family fireplace from their occupations. [An anvil](https://twitter.com/riley_skains/status/1212194705146077184), [a cat outline](https://twitter.com/riley_skains/status/1212194789153820673), or [ship lanterns](https://twitter.com/riley_skains/status/1212194775987892224) can start a conversation and trigger a memory. They are small and nearly worthless things, but they mean a lot.
 
 ![Lawrence Joseph Nevle](lawrence-joseph-nevle.jpg)
 
