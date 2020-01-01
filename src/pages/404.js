@@ -16,7 +16,7 @@ const NotFoundPage = () => (
 
 				<section className="content-section">
 					<p>This page wasn't found for some reason. Sorry about that! The link you clicked on was probably broken. Feel free to <a href="https://twitter.com/riley_skains">tweet me</a> about it or put in an issue or pull request on this website's <a href="https://github.com/rileyskains/skains.dev">GitHub repository</a>!</p>
-          <p>Thank you!</p>
+          			<p>Thank you!</p>
 				</section>
 
 				<section className="contact-grid content-section">

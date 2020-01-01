@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import SEO from "../components/seo"
+import shsu from "../images/work-examples/shsu-screenshot.jpg"
 
 const WorkPage = () => (
 
@@ -18,6 +19,16 @@ const WorkPage = () => (
 				<section className="interior-lead content-section">
 					<h2>Constantly working on new things.</h2>
 					<p>This section is temporarily a little empty as I labor to build things that showcase what my work is all about. Check back frequently!</p>
+				</section>
+
+				<section className="main-section articles-container-grid">
+					<a href="https://www.shsu.edu/" title="Sam Houston State University Website">
+						<article>
+							<img src={shsu} alt="SHSU website screenshot" />
+							<h3>SHSU Website</h3>
+							<p>I've worked toward building and maintaining large portions of the Sam Houston State University website for nearly two years.</p>
+						</article>
+					</a>
 				</section>
 
 				<section className="contact-grid content-section">

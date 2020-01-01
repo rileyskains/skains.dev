@@ -27,7 +27,7 @@ class ArticlesPage extends React.Component {
           					{posts.map(({ node }) => {
             					const title = node.frontmatter.title || node.fields.slug
             					return (
-              						<Link to={node.fields.slug}>
+              						<Link to={node.fields.slug} title={node.frontmatter.title}>
 										<article key={node.fields.slug}>
                 							<h3>{title}</h3>
                   							<p className="article-date">{node.frontmatter.date}</p>
