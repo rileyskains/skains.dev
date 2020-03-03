@@ -5,6 +5,7 @@ $work-gradient: linear-gradient(108.73492398522592deg, hsl(340, 78%, 87%) 6.1406
 $articles-gradient: linear-gradient(108.73492398522592deg, hsl(42, 100%, 81%) 6.140625%,hsl(342, 100%, 73%) 95.51562499999999%);
 $contact-gradient: linear-gradient(108.73492398522592deg, hsl(72, 88%, 75%) 6.140625%,hsl(188, 95%, 64%) 95.51562499999999%);
 $post-gradient: linear-gradient(135deg, hsl(216, 33%, 97%) 0%, hsl(217, 35%, 83%) 100%);
+$anime-gradient: linear-gradient( 135deg, #FFF3B0 10%, #CA26FF 100%);
 
 
 body {
@@ -155,6 +156,10 @@ img {
 
 .hero__background-gradient--contact {
 	background-image: $contact-gradient;
+}
+
+.hero__background-gradient--anime {
+	background-image: $anime-gradient;
 }
 
 .hero__background-gradient--post {
@@ -336,6 +341,10 @@ a:focus {
 	background-image: $post-gradient;
 }
 
+.contact-button--anime {
+	background-image: $anime-gradient;
+}
+
 footer {
   	display: grid;
   	grid-template-columns: 1fr 2fr 1fr;
@@ -396,7 +405,7 @@ footer {
 	h3 {
 		margin-top: 0;
 		margin-bottom: 1.25rem;
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 
 	.article-date {
@@ -406,6 +415,24 @@ footer {
 	p {
 		margin-bottom: 0;
 	}
+}
+
+.centered {
+	text-align: center;
+}
+
+.gray {
+	padding: 2rem;
+	background-color: hsl(0, 0%, 97%);
+	border-radius: 7px;
+	text-decoration: none;
+	color: hsl(0, 0%, 25%);
+}
+
+.hr--anime {
+	background-image: $anime-gradient;
+	height: 3px;
+	border:0;
 }
 
 
