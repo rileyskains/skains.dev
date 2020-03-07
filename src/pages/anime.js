@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import SEO from "../components/seo"
 import rslogo from "../images/rs-logo.svg"
-import "../styles/anime.scss"
+
 
 const AnimePage = () => (
 
@@ -140,9 +140,14 @@ const AnimePage = () => (
 
       </div>
         
+      
 
 	</>
 
+
+
 )
+
+
 
 export default AnimePage
