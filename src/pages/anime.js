@@ -41,8 +41,8 @@ const AnimePage = () => (
 						</article>
 
             <article className="centered gray">
-              <h3>Magi: The Kingdom of Magic</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18115-bIjnYeBLOuNl.jpg" alt="Magi" />
+              <h3>Re:Zero − Starting Life in Another World</h3>
+              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
 						</article>
 				</section>
 
@@ -51,14 +51,14 @@ const AnimePage = () => (
 
         <h2 className="centered">Tuesday</h2>
         <section className="main-section articles-container-grid">
-						<article className="centered gray">
-              <h3>Magi: The Kingdom of Magic</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18115-bIjnYeBLOuNl.jpg" alt="Magi" />
+            <article className="centered gray">
+              <h3>Ace of the Diamond: Second Season</h3>
+              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18689-HrvWZjpWvxMr.jpg" alt="Daiya" />
 						</article>
 
             <article className="centered gray">
-              <h3>Magi: The Kingdom of Magic</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18115-bIjnYeBLOuNl.jpg" alt="Magi" />
+              <h3>Re:Zero − Starting Life in Another World</h3>
+              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
 						</article>
 				</section>
 
@@ -66,14 +66,14 @@ const AnimePage = () => (
 
         <h2 className="centered">Wednesday</h2>
         <section className="main-section articles-container-grid">
-						<article className="centered gray">
-              <h3>Magi: The Kingdom of Magic</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18115-bIjnYeBLOuNl.jpg" alt="Magi" />
+            <article className="centered gray">
+              <h3>Ace of the Diamond: Second Season</h3>
+              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18689-HrvWZjpWvxMr.jpg" alt="Daiya" />
 						</article>
 
             <article className="centered gray">
-              <h3>Magi: The Kingdom of Magic</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18115-bIjnYeBLOuNl.jpg" alt="Magi" />
+              <h3>Re:Zero − Starting Life in Another World</h3>
+              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
 						</article>
 				</section>
 
@@ -119,8 +119,8 @@ const AnimePage = () => (
 						</article>
 
             <article className="centered gray">
-              <h3>Magi: The Kingdom of Magic</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18115-bIjnYeBLOuNl.jpg" alt="Magi" />
+              <h3>Re:Zero − Starting Life in Another World</h3>
+              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
 						</article>
 				</section>
 
