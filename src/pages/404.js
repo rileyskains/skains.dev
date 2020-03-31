@@ -8,8 +8,8 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <div>
 
-			<section className="hero--interior-page hero__background-gradient--post">
-				<h1>404: Not Found</h1>
+			<section className="hero--interior-page">
+				<h1 className="hero__gradient-underline--post">404: Not Found</h1>
       		</section>
 
 			<div className="content-wrapper">
@@ -24,7 +24,7 @@ const NotFoundPage = () => (
 						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--post">Contact</Link>
+						<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
 					</div>
 				</section>
 

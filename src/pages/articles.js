@@ -12,12 +12,12 @@ class ArticlesPage extends React.Component {
 			<>
     		<SEO title="Articles" />
 				<div>
-
-					<section className="hero--interior-page hero__background-gradient--articles">
-						<h1>Research, Articles, & Blogs</h1>
+				<div className="content-wrapper">
+					<section className="hero--interior-page">
+						<h1 className="hero__gradient-underline--articles">Research, Articles, & Blogs</h1>
       				</section>
 
-					<div className="content-wrapper">
+					
 						<section className="interior-lead content-section">
 							<h2>Find something that interests you.</h2>
 							<p>I write about development, my own investigations, and things that are going on in my life.</p>
@@ -50,7 +50,7 @@ class ArticlesPage extends React.Component {
 								<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 							</div>
 							<div>
-								<Link to="contact" className="contact-button contact-button--articles">Contact</Link>
+								<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
 							</div>
 						</section>
 

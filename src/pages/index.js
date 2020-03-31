@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import SEO from "../components/seo"
-import hero from "../images/hero-humaaans.svg"
+import avatar from "../images/avatar.svg"
 import whiteboard from "../images/whiteboard.svg"
 import skainslogo from "../images/skains-logo.svg"
 import nthchild from "../images/non-svg/nth-child.jpg"
@@ -15,17 +15,23 @@ const IndexPage = () => (
     <SEO title="Home" />
 		<div>
 
-			<section className="hero hero__background-gradient--index">
-				<div>
-					<h1>Front-End Developer & Designer</h1>
-          			<Link to="contact" className="button">Start a project &rarr;</Link>
-        		</div>
-				<div>
-        			<img src={hero} alt="Riley creating wireframes illustration." />
-        		</div>
-      		</section>
+			
 
 			<div className="content-wrapper">
+
+			<section className="hero">
+				<div>
+				<img src={avatar} alt="Riley's avatar" />
+					
+				</div>
+				<div className="hero-project-div background-gradient--contact">
+					<div>
+					<h1>I'm Riley.<br />I'm a Front-End Developer & Designer.</h1>
+						<p>Working on stuff is fun for me! Do you have something I can do?</p>
+          				<Link to="contact" className="button">Start a project &rarr;</Link>
+					</div>
+        		</div>
+      		</section>
 
 				<section className="lead content-section">
 					<h2>Making the world better through websites.</h2>
@@ -33,7 +39,7 @@ const IndexPage = () => (
 				</section>
 
 				<section className="five-four-grid content-section">
-					<div>
+					<div className="background-gradient--work">
 						<div className="five-four-grid__section">
 							<h3>Have a look at my work</h3>
 							<p>All of my <Link to="work">personal projects</Link> are developed in the open on <a href="https://github.com/rileyskains">GitHub</a> so that I can share my explorations and discoveries with the community.</p>
@@ -52,12 +58,15 @@ const IndexPage = () => (
 					</div>
 				</section>
 
-				<section className="lead content-section">
-					<h2>Skills & Passions</h2>
-					<p>My interests are perpetually evolving, but the boxes below are my staples. Additionally, advocacy for groups in need is something I'm passionate about!</p>
+				<section className="detail-grid content-section">
+					<div><Link to="" className="button">Family</Link></div>
+					<div><Link to="" className="button">Art</Link></div>
+					<div><Link to="anime" className="button">Anime</Link></div>
+					<div><Link to="" className="button">Fiction</Link></div>
+					<div><Link to="" className="button">Lab</Link></div>
 				</section>
 
-				<section className="four-five-grid content-section">
+				<section className="four-five-grid content-section background-gradient--index">
 					<div className="vertical-half-grid">
 						<div>
 							<img src={nthchild} alt="nth-child CodePen Challenge screenshot" />
@@ -70,13 +79,15 @@ const IndexPage = () => (
 							<p>Ensuring every website is accessible makes the web better for all of us. <Link to="articles">Doing my part</Link> makes me proud.</p>
 						</div>
 					</div>
-					<div>
+					<div className="vertical-half-grid">
 						<div>
 							<img src={queen} alt="Queen Bee" />
 							<h3>SVG</h3>
 							<p>A personal favorite of mine! SVGs have a ton of potential and can be controlled in <a href="https://rileyskains.github.io/bee-pository/">lots of neat ways</a>.</p>
 						</div>
-						<img src={skainslogo} alt="skains logo" />
+						<div>
+							<img src={skainslogo} alt="skains logo" />
+						</div>
 					</div>
 				</section>
 
@@ -85,7 +96,7 @@ const IndexPage = () => (
 						<p>I'm always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--index">Contact</Link>
+						<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
 					</div>
 				</section>
 

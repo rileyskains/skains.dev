@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import SEO from "../components/seo"
-import rslogo from "../images/rs-logo.svg"
 
 
 const AnimePage = () => (
@@ -11,130 +10,113 @@ const AnimePage = () => (
     <SEO title="Anime" />
       <div>
 
-      <section className="hero--interior-page hero__background-gradient--anime">
-				<h1>Anime Schedule</h1>
+      <div className="content-wrapper">
+
+      <section className="hero--interior-page">
+				<h1 className="hero__gradient-underline--anime">Anime Schedule</h1>
       		</section>
 
-			<div className="content-wrapper">
+			<div className="anime-days">
+          <div className="single-anime-day">
+          <h2 class="anime-day-title">Sunday</h2>
+              <div className="shows-grid">
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire1/ffe5a84ffeafce5f20693f7e9b6ff0151579221442_full.jpg" alt="Boruto Show Poster" />
+                  <p>Boruto: Naruto Next Generations</p>
+                </div>
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire2/320673efcacdbdb0d6222156f8d797ce1504216291_full.jpg" alt="SNAFU Show Poster" />
+                  <p>My Teen Romantic Comedy SNAFU TOO!</p>
+                </div>
+              </div>
+          </div>
 
-        <h2 className="centered">Sunday</h2>
+          <div className="single-anime-day">
+          <h2 class="anime-day-title">Monday</h2>
+              <div className="shows-grid">
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire4/0147a7268ae1c79b111c8fd62fbe8fbe1433796778_full.jpg" alt="Ace of Diamond Show Poster" />
+                  <p>Ace of Diamond Act II</p>
+                </div>
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire3/71db9b8dbcbd69284df73b4c1e6ef3df1460066070_full.jpg" alt="Flying Witch Show Poster" />
+                  <p>Flying Witch</p>
+                </div>
+              </div>
+          </div>
 
-				<section className="main-section articles-container-grid">
-						<article className="centered gray">
-              <h3>Boruto: Naruto Next Generations</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97938-eqZi4WQk5wRU.jpg" alt="Boruto" />
-						</article>
+          <div className="single-anime-day">
+          <h2 class="anime-day-title">Tuesday</h2>
+              <div className="shows-grid">
+              <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire2/320673efcacdbdb0d6222156f8d797ce1504216291_full.jpg" alt="SNAFU Show Poster" />
+                  <p>My Teen Romantic Comedy SNAFU TOO!</p>
+                </div>
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire3/71db9b8dbcbd69284df73b4c1e6ef3df1460066070_full.jpg" alt="Flying Witch Show Poster" />
+                  <p>Flying Witch</p>
+                </div>
+              </div>
+          </div>
 
-            <article className="centered gray">
-              <h3>Ace of the Diamond: Second Season</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18689-HrvWZjpWvxMr.jpg" alt="Daiya" />
-						</article>
-				</section>
+          <div className="single-anime-day">
+          <h2 class="anime-day-title">Wednesday</h2>
+              <div className="shows-grid">
+              <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire4/0147a7268ae1c79b111c8fd62fbe8fbe1433796778_full.jpg" alt="Ace of Diamond Show Poster" />
+                  <p>Ace of Diamond Act II</p>
+                </div>
+                <div className="show-container">
+                  <img src="https://m.media-amazon.com/images/M/MV5BZmUzMThjOTItZGY4ZS00ODcwLTliNTMtYjVkM2JmY2QxNmRhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg" alt="Violet Evergarden Show Poster" />
+                  <p>Violet Evergarden</p>
+                </div>
+              </div>
+          </div>
 
-        <hr className="hr--anime" />
+          <div className="single-anime-day">
+          <h2 class="anime-day-title">Thursday</h2>
+              <div className="shows-grid">
+              <div className="show-container">
+                  <img src="https://m.media-amazon.com/images/M/MV5BZmUzMThjOTItZGY4ZS00ODcwLTliNTMtYjVkM2JmY2QxNmRhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg" alt="Violet Evergarden Show Poster" />
+                  <p>Violet Evergarden</p>
+                </div>
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire3/71db9b8dbcbd69284df73b4c1e6ef3df1460066070_full.jpg" alt="Flying Witch Show Poster" />
+                  <p>Flying Witch</p>
+                </div>
+              </div>
+          </div>
 
-        <h2 className="centered">Monday</h2>
-        <section className="main-section articles-container-grid">
-						<article className="centered gray">
-              <h3>Keep Your Hands Off Eizouken!</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109298-YvjfI88hX76T.png" alt="Eizouken" />
-						</article>
+          <div className="single-anime-day">
+          <h2 class="anime-day-title">Friday</h2>
+              <div className="shows-grid">
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire4/a9c1f36167964b81371db1bde94087861580166621_full.jpg" alt="Haikyuu Show Poster" />
+                  <p>HAIKYU‼ TO THE TOP</p>
+                </div>
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire2/320673efcacdbdb0d6222156f8d797ce1504216291_full.jpg" alt="SNAFU Show Poster" />
+                  <p>My Teen Romantic Comedy SNAFU TOO!</p>
+                </div>
+              </div>
+          </div>
 
-            <article className="centered gray">
-              <h3>Re:Zero − Starting Life in Another World</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
-						</article>
-				</section>
+          <div className="single-anime-day">
+          <h2 class="anime-day-title">Saturday</h2>
+              <div className="shows-grid">
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire2/cccce22d1dfaaf713284a617ee0b539a1572467883_full.jpg" alt="BNHA Show Poster" />
+                  <p>My Hero Academia Season 4</p>
+                </div>
+                <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire2/320673efcacdbdb0d6222156f8d797ce1504216291_full.jpg" alt="SNAFU Show Poster" />
+                  <p>My Teen Romantic Comedy SNAFU TOO!</p>
+                </div>
+              </div>
+          </div>
+      </div>
 
-        <hr className="hr--anime" />
-
-
-        <h2 className="centered">Tuesday</h2>
-        <section className="main-section articles-container-grid">
-            <article className="centered gray">
-              <h3>Ace of the Diamond: Second Season</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18689-HrvWZjpWvxMr.jpg" alt="Daiya" />
-						</article>
-
-            <article className="centered gray">
-              <h3>Re:Zero − Starting Life in Another World</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
-						</article>
-				</section>
-
-        <hr className="hr--anime" />
-
-        <h2 className="centered">Wednesday</h2>
-        <section className="main-section articles-container-grid">
-            <article className="centered gray">
-              <h3>Ace of the Diamond: Second Season</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18689-HrvWZjpWvxMr.jpg" alt="Daiya" />
-						</article>
-
-            <article className="centered gray">
-              <h3>Re:Zero − Starting Life in Another World</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
-						</article>
-				</section>
-
-        <hr className="hr--anime" />
-
-
-        <h2 className="centered">Thursday</h2>
-        <section className="main-section articles-container-grid">
-						<article className="centered gray">
-              <h3>Ace of the Diamond: Second Season</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx18689-HrvWZjpWvxMr.jpg" alt="Daiya" />
-						</article>
-
-            <article className="centered gray">
-              <h3>The Case Files of Jeweler Richard</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111951-vzX8hv9fl9pR.png" alt="Jeweler" />
-						</article>
-				</section>
-
-        <hr className="hr--anime" />
-
-
-        <h2 className="centered">Friday</h2>
-        <section className="main-section articles-container-grid">
-						<article className="centered gray">
-              <h3>HAIKYU‼ TO THE TOP</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106625-UR22wB2NuNVi.png" alt="Haikyuu" />
-						</article>
-
-            <article className="centered gray">
-              <h3>Toilet-bound Hanako-kun</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108463-knWkFUR311ho.jpg" alt="Hanako" />
-						</article>
-				</section>
-
-        <hr className="hr--anime" />
-
-        <h2 className="centered">Saturday</h2>
-        <section className="main-section articles-container-grid">
-						<article className="centered gray">
-              <h3>My Hero Academia Season 4</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104276-DplpGzgCoRZX.jpg" alt="Academia" />
-						</article>
-
-            <article className="centered gray">
-              <h3>Re:Zero − Starting Life in Another World</h3>
-              <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21355-KaZA3hpWpn7N.jpg" alt="Re:Zero" />
-						</article>
-				</section>
-
-
-        <hr className="hr--anime" />
-
-				<section className="contact-grid content-section">
-					<div>
-						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
-					</div>
-					<div>
-						<Link to="contact" className="contact-button contact-button--anime">Contact</Link>
-					</div>
-				</section>
+       
 
 			</div>
 

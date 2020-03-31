@@ -14,10 +14,10 @@ class ArticleTemplate extends React.Component {
           	description={post.frontmatter.description || post.excerpt}
         	/>
 
-			<div>
+			<div className="content-wrapper">
 
-				<section className="hero--interior-page hero__background-gradient--post">
-  					<h1>{post.frontmatter.title}</h1>
+				<section className="hero--interior-page">
+  					<h1 className="hero__gradient-underline--articles">{post.frontmatter.title}</h1>
   					<p>{post.frontmatter.date}</p>
     			</section>
 
@@ -33,7 +33,7 @@ class ArticleTemplate extends React.Component {
 						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--post">Contact</Link>
+						<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
 					</div>
 				</section>
         	</div>
