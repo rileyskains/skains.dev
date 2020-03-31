@@ -58,13 +58,7 @@ const IndexPage = () => (
 					</div>
 				</section>
 
-				<section className="detail-grid content-section">
-					<div><Link to="" className="button">Family</Link></div>
-					<div><Link to="" className="button">Art</Link></div>
-					<div><Link to="anime" className="button">Anime</Link></div>
-					<div><Link to="" className="button">Fiction</Link></div>
-					<div><Link to="" className="button">Lab</Link></div>
-				</section>
+				
 
 				<section className="four-five-grid content-section background-gradient--index">
 					<div className="vertical-half-grid">
