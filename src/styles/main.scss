@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inter|Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Vollkorn:wght@600&display=swap');
 
 $index-gradient: linear-gradient(108.73492398522592deg, hsl(49, 89%, 78%) 6.140625%,hsl(336, 76%, 85%) 95.51562499999999%);
 $work-gradient: linear-gradient(108.73492398522592deg, hsl(340, 78%, 87%) 6.140625%,hsl(193, 86%, 83%) 95.51562499999999%);
@@ -33,6 +33,7 @@ $anime-gradient: linear-gradient(to right, hsl(334, 82%, 66%), hsl(34, 69%, 79%)
 		h2 {
 			text-align:center;
 			font-family: 'Vollkorn', serif;
+			font-weight: 600;
 			font-size: 2.5rem;
 		}
 
@@ -129,6 +130,7 @@ body {
 	margin: 0;
 	background-color: hsl(0, 0%, 100%);
 	font-family: 'Inter', sans-serif;
+	font-weight: 400;
 	color: hsl(0, 0%, 25%);
 }
 
