@@ -10,26 +10,26 @@ const WorkPage = () => (
     <SEO title="Work" />
 		<div>
 
-		<div className="content-wrapper">
+		
 
 			<section className="hero--interior-page">
-				<h1 className="hero__gradient-underline--work">Current & Previous Projects</h1>
+				<h1 className="hero__gradient-underline background-gradient--work">Current & Previous Projects</h1>
       		</section>
 
 			
 
-				<section className="interior-lead content-section">
+				<section className="lede--left">
 					<h2>Currently working on...</h2>
 				</section>
 
-				<section className="main-section work-example--index">
-					<div className="work-example-interior">
+				<section className="work-example--index">
+					<div className="work-example-interior-grid">
 						<div>
 						<h3>Sam Houston State University</h3>
 							<p>I've worked toward building and maintaining large portions of the Sam Houston State University website for over two years. I also handle all HTML mass emails.</p>
 							<ul>
-								<li><Link to="">More info on this project</Link></li>
-								<li><a href="">Visit the SHSU website</a></li>
+								<li><Link to="/projects/shsu">More info on this project</Link></li>
+								<li><a href="https://www.shsu.edu/">Visit the SHSU website</a></li>
 							</ul>
 						</div>
 						<div>
@@ -38,18 +38,18 @@ const WorkPage = () => (
 					</div>
 				</section>
 
-				<section className="contact-grid content-section">
+				<section className="contact-grid">
 					<div>
 						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
+						<Link to="contact" className="button background-gradient--contact">Contact</Link>
 					</div>
 				</section>
 
 			</div>
 
-		</div>
+		
 
 	</>
 

@@ -17,14 +17,14 @@ const IndexPage = () => (
 
 			
 
-			<div className="content-wrapper">
+			
 
-			<section className="hero">
+			<section className="hero-grid">
 				<div>
 				<img src={avatar} alt="Riley's avatar" />
 					
 				</div>
-				<div className="hero-project-div background-gradient--contact">
+				<div className="hero-grid__cta background-gradient--contact">
 					<div>
 					<h1>I'm Riley.<br />I'm a Front-End Developer & Designer.</h1>
 						<p>Working on stuff is fun for me! Do you have something I can do?</p>
@@ -33,22 +33,22 @@ const IndexPage = () => (
         		</div>
       		</section>
 
-				<section className="lead content-section">
+				<section className="lede">
 					<h2>Making the world better through websites.</h2>
 					<p>I create functional and accessible websites and web applications. Hire me to build a website, put together a design, or write an article.</p>
 				</section>
 
-				<section className="five-four-grid content-section">
+				<section className="expanded-nav-grid">
 					<div className="background-gradient--work">
-						<div className="five-four-grid__section">
+						<div className="expanded-nav-grid__details">
 							<h3>Have a look at my work</h3>
 							<p>All of my <Link to="work">personal projects</Link> are developed in the open on <a href="https://github.com/rileyskains">GitHub</a> so that I can share my explorations and discoveries with the community.</p>
 						</div>
-						<div className="five-four-grid__section">
+						<div className="expanded-nav-grid__details">
 							<h3>Read some of my articles</h3>
 							<p>Our modern web impacts people and our society on a fundamental level. <Link to="articles">I frequently write</Link> about design, accessibility, and culture.</p>
 						</div>
-						<div className="five-four-grid__section">
+						<div className="expanded-nav-grid__details">
 							<h3>Get in touch with me</h3>
 							<p>Feel free to <Link to="contact">reach out</Link> about hiring me, starting a project, or just to say hello! Ideas, suggestions, and new friends are always welcome!</p>
 						</div>
@@ -60,7 +60,7 @@ const IndexPage = () => (
 
 				
 
-				<section className="four-five-grid content-section background-gradient--index">
+				<section className="about-me-grid background-gradient--index">
 					<div className="vertical-half-grid">
 						<div>
 							<img src={nthchild} alt="nth-child CodePen Challenge screenshot" />
@@ -85,18 +85,18 @@ const IndexPage = () => (
 					</div>
 				</section>
 
-				<section className="contact-grid content-section">
+				<section className="contact-grid">
 					<div>
 						<p>I'm always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
+						<Link to="contact" className="button background-gradient--contact">Contact</Link>
 					</div>
 				</section>
 
 			</div>
 
-		</div>
+		
 
 	</>
 

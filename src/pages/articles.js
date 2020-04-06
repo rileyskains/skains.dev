@@ -12,18 +12,18 @@ class ArticlesPage extends React.Component {
 			<>
     		<SEO title="Articles" />
 				<div>
-				<div className="content-wrapper">
+				
 					<section className="hero--interior-page">
-						<h1 className="hero__gradient-underline--articles">Research, Articles, & Blogs</h1>
+						<h1 className="hero__gradient-underline background-gradient--articles">Research, Articles, & Blogs</h1>
       				</section>
 
 					
-						<section className="interior-lead content-section">
+						<section className="lede">
 							<h2>Find something that interests you.</h2>
 							<p>I write about development, my own investigations, and things that are going on in my life.</p>
 						</section>
 
-        				<section className="main-section articles-container-grid">
+        				<section className="articles-grid">
           					{posts.map(({ node }) => {
             					const title = node.frontmatter.title || node.fields.slug
             					return (
@@ -45,18 +45,18 @@ class ArticlesPage extends React.Component {
           					})}
         				</section>
 
-						<section className="contact-grid content-section">
+						<section className="contact-grid">
 							<div>
 								<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 							</div>
 							<div>
-								<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
+								<Link to="contact" className="button background-gradient--contact">Contact</Link>
 							</div>
 						</section>
 
 			</div>
 
-		</div>
+		
 
 	</>
 

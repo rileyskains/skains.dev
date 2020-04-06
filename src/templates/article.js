@@ -14,10 +14,10 @@ class ArticleTemplate extends React.Component {
           	description={post.frontmatter.description || post.excerpt}
         	/>
 
-			<div className="content-wrapper">
+			
 
 				<section className="hero--interior-page">
-  					<h1 className="hero__gradient-underline--articles">{post.frontmatter.title}</h1>
+  					<h1 className="hero__gradient-underline background-gradient--articles">{post.frontmatter.title}</h1>
   					<p>{post.frontmatter.date}</p>
     			</section>
 
@@ -28,15 +28,15 @@ class ArticleTemplate extends React.Component {
         		</div>
 
 
-				<section className="contact-grid content-section">
+				<section className="contact-grid">
 					<div>
 						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
+						<Link to="contact" className="button background-gradient--contact">Contact</Link>
 					</div>
 				</section>
-        	</div>
+        	
       	</>
     )
   }

@@ -10,10 +10,9 @@ const AcknowledgementsPage = () => (
 		<div>
 
 			<section className="hero--interior-page">
-				<h1 className="hero__gradient-underline--post">Acknowledgements</h1>
+				<h1 className="hero__gradient-underline background-gradient--post">Acknowledgements</h1>
       		</section>
 
-			<div className="content-wrapper">
 
                 <p>Thank you to the following for contributing in some way to this project - knowingly or not!</p>
 
@@ -30,18 +29,17 @@ const AcknowledgementsPage = () => (
                     </li>
                 </ul>
 
-				<section className="contact-grid content-section">
+				<section className="contact-grid">
 					<div>
 						<p>I’m always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
 					</div>
 					<div>
-						<Link to="contact" className="contact-button contact-button--contact">Contact</Link>
+						<Link to="contact" className="button background-gradient--contact">Contact</Link>
 					</div>
 				</section>
 
 			</div>
 
-		</div>
 
 	</>
 

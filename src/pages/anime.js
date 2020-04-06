@@ -10,10 +10,10 @@ const AnimePage = () => (
     <SEO title="Anime" />
       <div>
 
-      <div className="content-wrapper">
+     
 
       <section className="hero--interior-page">
-				<h1 className="hero__gradient-underline--anime">Anime Schedule</h1>
+				<h1 className="hero__gradient-underline background-gradient--anime">Anime Schedule</h1>
       		</section>
 
 			<div className="anime-days">
@@ -116,11 +116,16 @@ const AnimePage = () => (
           </div>
       </div>
 
-       
+      <section className="contact-grid">
+					<div>
+						<p>I'm always looking to make friends and start new projects! Please consider hiring me for your next website!</p>
+					</div>
+					<div>
+						<Link to="contact" className="button background-gradient--contact">Contact</Link>
+					</div>
+				</section>
 
 			</div>
-
-      </div>
         
       
 
