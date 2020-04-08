@@ -313,12 +313,24 @@ footer {
 			background-color: hsl(0, 0%, 100%);
 			border-radius: 7px;
 			padding: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
 
-			p {
-				font-size: 1.25rem;
+			img {
+				object-fit: contain;
+			}
+
+			h3 {
 				text-align: center;
-				margin-top: .5rem;
-				margin-bottom: 0;
+				margin: 0;
+			}
+
+			.show-source {
+				max-width: 50%;
+				margin: 0 auto;
+				display: block;
+				margin-top: 2rem;
 			}
 		}
 	}
