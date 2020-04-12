@@ -30,8 +30,8 @@ const AnimePage = () => (
                   <img className="show-source" src={crunchyroll} alt="Crunchyroll" />
                 </div>
                 <div className="show-container">
-                  <img src="https://img1.ak.crunchyroll.com/i/spire2/39ab3edc4b030998d5122c2b6db9d12e1585964438_full.jpg" alt="SING Show Poster" />
-                  <h3>SING "YESTERDAY" FOR ME</h3>
+                  <img src="https://img1.ak.crunchyroll.com/i/spire4/0147a7268ae1c79b111c8fd62fbe8fbe1433796778_full.jpg" alt="Daiya Show Poster" />
+                  <h3>Ace of the Diamond Act II</h3>
                   <img className="show-source" src={crunchyroll} alt="Crunchyroll" />
                 </div>
               </div>
@@ -94,20 +94,22 @@ const AnimePage = () => (
                   <img className="show-source" src={funimation} alt="Funimation" />
                 </div>
                 <div className="show-container">
-                  <img src="https://img1.ak.crunchyroll.com/i/spire4/0147a7268ae1c79b111c8fd62fbe8fbe1433796778_full.jpg" alt="Daiya Show Poster" />
-                  <h3>Ace of the Diamond Act II</h3>
-                  <img className="show-source" src={crunchyroll} alt="Crunchyroll" />
+                  <img src="https://res.cloudinary.com/sfp/image/upload/q_60/cste/6f27f824-cb1c-42b3-92ee-c40a53665b89.jpg" alt="Millionaire Show Poster" />
+                  <h3>The Millionaire Detective - Balance: UNLIMITED</h3>
+                  <img className="show-source" src={funimation} alt="Funimation" />
                 </div>
+                
               </div>
           </div>
 
           <div className="single-anime-day">
           <h2 class="anime-day-title">Friday</h2>
               <div className="shows-grid">
+                
                 <div className="show-container">
-                  <img src="https://res.cloudinary.com/sfp/image/upload/q_60/cste/6f27f824-cb1c-42b3-92ee-c40a53665b89.jpg" alt="Millionaire Show Poster" />
-                  <h3>The Millionaire Detective - Balance: UNLIMITED</h3>
-                  <img className="show-source" src={funimation} alt="Funimation" />
+                  <img src="https://pbs.twimg.com/media/ESEOkWIUwAA21iw?format=jpg&name=4096x4096" alt="Food Wars Show Poster" />
+                  <h3>Food Wars: The Fifth Plate</h3>
+                  <img className="show-source" src={crunchyroll} alt="Crunchyroll" />
                 </div>
                 <div className="show-container">
                   <img src="https://m.media-amazon.com/images/M/MV5BZmUzMThjOTItZGY4ZS00ODcwLTliNTMtYjVkM2JmY2QxNmRhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg" alt="Violet Show Poster" />
@@ -120,9 +122,9 @@ const AnimePage = () => (
           <div className="single-anime-day">
           <h2 class="anime-day-title">Saturday</h2>
               <div className="shows-grid">
-                <div className="show-container">
-                  <img src="https://img1.ak.crunchyroll.com/i/spire4/bdb7cd339117868cd6696dce922f318e1571270456_full.jpg" alt="Food Wars Show Poster" />
-                  <h3>Food Wars: The Fifth Plate</h3>
+              <div className="show-container">
+                  <img src="https://img1.ak.crunchyroll.com/i/spire2/39ab3edc4b030998d5122c2b6db9d12e1585964438_full.jpg" alt="SING Show Poster" />
+                  <h3>SING "YESTERDAY" FOR ME</h3>
                   <img className="show-source" src={crunchyroll} alt="Crunchyroll" />
                 </div>
                 <div className="show-container">
