@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 import SEO from "../../components/seo"
+import shsudesktop from "../../images/non-svg/shsu-getting-started.jpg"
+import shsumobile from "../../images/non-svg/shsu-iphone-screenshot.jpg"
 
 
 const ShsuPage = () => (
@@ -35,6 +37,25 @@ const ShsuPage = () => (
                   <li><a href="https://texreg.sos.state.tx.us/public/readtac$ext.ViewTAC?tac_view=4&ti=1&pt=10&ch=213">Texas Administrative Code 213</a></li>
               </ul>
               <p>In accordance with these policies, we request and follow up on <abbr title="Voluntary Product Accessibility Template">VPAT</abbr>s from vendors. We also follow get a yearly, manual site audit from a third party provider to ensure we maintain compliance.</p>
+              <h2>Design</h2>
+              <p>The design of the website varies heavily. We are sometimes given a large amount of freedom in design, and other times we are given a design an already-completed design and told to turn it into code. This can be challenging due to the above-mentioned accessibility procedure where someone can create a design without accessibility in mind.</p>
+              <p>More recently, we have been strengthening our bond with the Marketing and Communications department so that those situations occur less, and so that the brand can be strenghened through our collaboration. By working together, we can tackle the most public-facing aspect of Sam Houston State University and hold it to a higher standard (and produce something better than we could have each produced individually).</p>
+              <p>We are already excited to work on a new template design with the help of Marketing and Communications and their new 2020 Branding Guide.</p>
+              <div className="plain-three-one-grid">
+                  <div>
+                    <img src={shsudesktop} alt="SHSU Desktop site" />
+                  </div>
+                  <div>
+                    <img src={shsumobile} alt="SHSU Mobile site" />
+                  </div>
+              </div>
+              <h2>Quality Assurance</h2>
+              <p>With more than 200 content editors spread across our entire campus and thousands of pages constantly being edited, quality assurance is a steady problem. Links are broken, words are misspelled, brand guidlines are broken, accessibility errors are created, etc. We thankfully have tools in place that notify us when such problems arise, but it can be a lot for so few people to manage.</p>
+              <p>Our focus in quality assurance is always accessibility, but broken links are our next-biggest target. If people cannot access the information they were trying to access, then that reflects poorly on the university or the department from which they clicked the broken link.</p>
+              <p>Quality assurance is also about consistency on the page, so we try to ensure that all pages make it to the same template and have the same set of features. Any department or site that goes outside of the norm we try to bring back into place (though this is sometimes our own fault, and sometimes cannot be brought back into place because it was requested by someone from higher up).</p>
+              <h2>Governance</h2>
+              <p>Governance is the most hotly debated part of this website experience. Everyone on campus feels they have ownership of the website, which leads to a large amount of power struggles between campus leadership. It is a very frustrating experience that I am not looking to replicate in my future endeavors.</p>
+              <p></p>
               <h2>Tools</h2>
               <p>Since there are only 4 web developers in my department, we have to rely heavily upon our tools to get the job done. Some of those tools are more modern than others, but all of them serve their purpose.</p>
               <p>Some tools of note are:</p>

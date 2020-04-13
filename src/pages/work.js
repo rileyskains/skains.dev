@@ -22,15 +22,16 @@ const WorkPage = () => (
 					<h2>Currently working on...</h2>
 				</section>
 
-				<section className="work-example--index">
+				<section className="work-example background-gradient--shsu">
 					<div className="work-example-interior-grid">
 						<div>
 						<h3>Sam Houston State University</h3>
 							<p>I've worked toward building and maintaining large portions of the Sam Houston State University website for over two years. I also handle all HTML mass emails.</p>
 							<ul>
-								<li><Link to="/projects/shsu">More info on this project</Link></li>
-								<li><a href="https://www.shsu.edu/">Visit the SHSU website</a></li>
+								<li><a href="https://www.shsu.edu/">SHSU Website</a></li>
 							</ul>
+							<Link to="projects/shsu" className="button background-gradient--shsu">Project Info</Link>
+
 						</div>
 						<div>
 						<img src={shsu} alt="SHSU website screenshot" />

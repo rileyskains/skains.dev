@@ -6,7 +6,7 @@ $articles-gradient: linear-gradient(108.73492398522592deg, hsl(42, 100%, 81%) 6.
 $contact-gradient: linear-gradient(108.73492398522592deg, hsl(72, 88%, 75%) 6.140625%,hsl(188, 95%, 64%) 95.51562499999999%);
 $post-gradient: linear-gradient(135deg, hsl(216, 33%, 97%) 0%, hsl(217, 35%, 83%) 100%);
 $anime-gradient: linear-gradient(to right, hsl(334, 82%, 66%), hsl(34, 69%, 79%));
-$shsu-gradient: linear-gradient(to right, #f56423, #EEE1C6);
+$shsu-gradient: linear-gradient(to right, hsl(19, 91%, 65%), hsl(40, 54%, 75%));
 
 // linear-gradient( 135deg, hsl(51, 100%, 85%) 10%, hsl(285, 100%, 57%) 100%);
 // linear-gradient(to right, #ef32d9, #89fffd);
@@ -336,6 +336,22 @@ footer {
 	}
 }
 
+.plain-three-one-grid {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 2rem;
+}
+
+.plain-half-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+
+	.button {
+		min-width: 75%;
+	}
+}
+
 .single-anime-day:nth-child(2), .single-anime-day:nth-child(6) {
 	background-image: $index-gradient;
 }
@@ -358,8 +374,7 @@ footer {
 	grid-gap: 2rem;
 }
 
-.work-example--index {
-	background-image: $index-gradient;
+.work-example {
 	padding: 1.25rem;
 	border-radius: 7px;
 
@@ -372,6 +387,8 @@ footer {
 		grid-gap: 2rem;
 	}
 }
+
+	
 
 .article-wrapper {
 	font-size: 1.25rem;
@@ -622,6 +639,18 @@ footer {
 
 		  ul, ol {
 			  font-size: 1.15rem;
+		  }
+	  }
+	  .plain-three-one-grid {
+		  grid-template-columns: 1fr;
+	  }
+	  .plain-half-grid {
+		  grid-template-columns: 1fr;
+
+		  div {
+			  .button {
+				  min-width: 75%;
+			  }
 		  }
 	  }
 }
